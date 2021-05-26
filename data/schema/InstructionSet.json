@@ -14,16 +14,23 @@
                 "$ref": "#/definitions/transaction_type"
             }
         },
-        "startingProps": {
+        "startingPropsMap": {
             "type": "array",
-            "minItems": 0,
+            "minItems": 1,
             "items": {
-                "$ref": "#/definitions/wrapper_type"
+                "$ref": "#/definitions/prop_wrapper_type"
+            }
+        },
+        "startingPropsArray": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "objects/Objects.json#/definitions/prop_type"
             }
         }
     },
     "definitions": {
-            "wrapper_type": {
+            "prop_wrapper_type": {
             "type": "object",
             "required": [ "prop" ],
             "properties": {

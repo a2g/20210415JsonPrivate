@@ -6,6 +6,7 @@
     "definitions": {
         "inv_type": {
             "enum": [
+                "inv_",
                 "inv_screwdriver",
                 "inv_radio_tube",
                 "inv_broken_amp",
@@ -25,6 +26,7 @@
         },
         "prop_type": {
             "enum": [
+                "prop_",
                 "prop_screwdriver",
                 "prop_closed_radio",
                 "prop_opened_radio",
@@ -76,6 +78,15 @@
                 "prop_exposed_vacuum_tube_pipe_5",
                 "prop_three_phase_powerpoint",
                 "prop_button_set_to_star"
+            ]
+        },
+        "reg_type": {
+            "enum": [
+                "reg_",
+                "reg_win",
+                "reg_win_by_police",
+                "reg_win_by_launch",
+                "reg_win_by_talkshow"
             ]
         }
     }

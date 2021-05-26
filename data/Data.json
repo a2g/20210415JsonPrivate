@@ -1,5 +1,4 @@
 {
-
 	"transactions": [
 		{
 			"type": "PROP1_GOES_WHEN_GRAB_INV1",
@@ -222,11 +221,9 @@
 			"reg2": "reg_"
 		}
 	],
-	{
-	"startingProps": {
-	
-	
-	} 
+	"startingProps": [
+		{
+			"prop": 
+		}
+	]
 }
-}
-	 

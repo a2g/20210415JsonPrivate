@@ -5,7 +5,7 @@
     "type": "object",
     "properties": {
         "objectivePropName": {
-            "$ref": "mansion.objects.schema.json#/definitions/inv_type"
+            "$ref": "objects/Objects.json#/definitions/prop_type"
         },
        "transactions": {
             "type": "array",
@@ -16,19 +16,19 @@
         },
         "startingProps": {
             "type": "array",
-            "minItems": 1,
+            "minItems": 0,
             "items": {
-                "$ref": "#/definitions/prop_wrapper_type"
+                "$ref": "#/definitions/wrapper_type"
             }
         }
     },
     "definitions": {
-            "prop_wrapper_type": {
+            "wrapper_type": {
             "type": "object",
-            "required": [ "type" ],
+            "required": [ "prop" ],
             "properties": {
                 "prop": {
-                    "$ref": "#/definitions/type_type"
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
                 }
              }
         },

@@ -1,5 +1,5 @@
 {
-    "transactions": [
+    "reactions": [
         {
             "type": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_death_by_guitar",
@@ -221,7 +221,7 @@
             "reg2": "reg_"
         }
     ],
-    "startingPropsMap": [
+    "startingProps": [
         {
             "prop": "prop_broken_amp"
         },
@@ -230,6 +230,11 @@
         },
         {
             "prop": "prop_button_set_to_star"
+        }
+    ],
+    "startingInvs": [
+        {
+            "prop": "inv_guitar"
         }
     ]
 }

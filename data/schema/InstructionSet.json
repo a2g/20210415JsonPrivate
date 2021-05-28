@@ -40,9 +40,9 @@
 
         "inv_wrapper_type": {
             "type": "object",
-            "required": [ "prop" ],
+            "required": [ "inv" ],
             "properties": {
-                "prop": {
+                "inv": {
                     "$ref": "objects/Objects.json#/definitions/inv_type"
                 }
             }

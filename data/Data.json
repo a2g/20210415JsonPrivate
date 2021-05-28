@@ -7,6 +7,31 @@
         },
         {
             "type": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_broken_amp",
+            "inv1": "inv_broken_amp"
+        },
+        {
+            "type": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_deflated_ball",
+            "inv1": "inv_deflated_ball"
+        },
+        {
+            "type": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_pump_with_bike_adapter",
+            "inv1": "inv_pump_with_bike_adapter"
+        },
+        {
+            "type": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_inflating_needle",
+            "inv1": "inv_inflating_needle"
+        },
+        {
+            "type": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_pole_hook",
+            "inv1": "inv_pole_hook"
+        },
+        {
+            "type": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_death_by_slamdunk",
             "inv1": "inv_demon_death"
         },
@@ -52,7 +77,7 @@
         },
         {
             "type": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-            "prop1": "prop_powerpoint",
+            "prop1": "prop_gym_powerpoint",
             "prop2": "prop_plugged_in_amp",
             "inv1": "inv_fixed_amp"
         },
@@ -226,15 +251,29 @@
             "prop": "prop_broken_amp"
         },
         {
-            "prop": "prop_broken_amp"
+            "prop": "prop_closed_radio"
         },
         {
             "prop": "prop_button_set_to_star"
+        },
+        {
+            "prop": "prop_screwdriver"
+        },
+        {
+            "prop": "prop_gym_powerpoint"
+        },
+        {
+            "prop": "prop_deflated_ball"
+        },
+        {
+            "prop": "prop_pump_with_bike_adapter"
+        },
+        {
+            "prop": "prop_inflating_needle"
+        },
+        {
+            "prop": "prop_pole_hook"
         }
     ],
-    "startingInvs": [
-        {
-            "prop": "inv_guitar"
-        }
-    ]
+    "startingInvs": [ { "inv": "inv_guitar" } ]
 }

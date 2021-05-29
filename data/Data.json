@@ -273,6 +273,9 @@
         },
         {
             "prop": "prop_pole_hook"
+        },
+        {
+            "prop": "prop_raised_backboard"
         }
     ],
     "startingInvs": [ { "inv": "inv_guitar" } ]

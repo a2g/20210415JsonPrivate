@@ -1,6 +1,21 @@
 {
     "reactions": [
         {
+            "type": "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
+            "inv1": "inv_",
+            "inv2": "inv_",
+            "inv3": "inv_",
+            "prop1": "prop_",
+            "prop2": "prop_",
+            "prop3": "prop_",
+            "prop4": "prop_",
+            "prop5": "prop_",
+            "prop6": "prop_",
+            "prop7": "prop_",
+            "reg1": "reg_",
+            "reg2": "reg_"
+        },
+        {
             "type": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_death_by_guitar",
             "inv1": "inv_demon_death"
@@ -132,31 +147,31 @@
         },
         {
             "type": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-            "prop1": "prop_exposed_vacuum_tube1",
+            "prop1": "prop_exposed_vacuum_pipe1",
             "prop2": "prop_attached_electromagnet1",
             "inv1": "inv_box_of_electromagnets"
         },
         {
             "type": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-            "prop1": "prop_exposed_vacuum_tube2",
+            "prop1": "prop_exposed_vacuum_pipe2",
             "prop2": "prop_attached_electromagnet2",
             "inv1": "inv_box_of_electromagnets"
         },
         {
             "type": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-            "prop1": "prop_exposed_vacuum_tube3",
+            "prop1": "prop_exposed_vacuum_pipe3",
             "prop2": "prop_attached_electromagnet3",
             "inv1": "inv_box_of_electromagnets"
         },
         {
             "type": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-            "prop1": "prop_exposed_vacuum_tube4",
+            "prop1": "prop_exposed_vacuum_pipe4",
             "prop2": "prop_attached_electromagnet4",
             "inv1": "inv_box_of_electromagnets"
         },
         {
             "type": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-            "prop1": "prop_exposed_vacuum_tube5",
+            "prop1": "prop_exposed_vacuum_pipe5",
             "prop2": "prop_attached_electromagnet5",
             "inv1": "inv_box_of_electromagnets"
         },
@@ -231,20 +246,16 @@
             "prop3": "prop_switched_on_electromagnet1"
         },
         {
-            "type": "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
-            "inv1": "inv_",
-            "inv2": "inv_",
-            "inv3": "inv_",
-            "prop1": "prop_",
-            "prop2": "prop_",
-            "prop3": "prop_",
-            "prop4": "prop_",
-            "prop5": "prop_",
-            "prop6": "prop_",
-            "prop7": "prop_",
-            "reg1": "reg_",
-            "reg2": "reg_"
+            "type": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1" : "prop_topology-button_star-topology",
+            "prop2" : "prop_topology-button_ring-topology"
+        },
+        {
+            "type": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_topology-button_ring-topology",
+            "prop2": "prop_topology-button_star-topology"
         }
+
     ],
     "startingProps": [
         {

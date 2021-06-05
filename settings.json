@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "schema/*.schema.json"
+            ],
+            "url": "http://json-schema.org/draft-07/schema"            
+        },
+        {
+            "fileMatch": [
+                "schema/*.ghost.json"
+            ],
+            "url": "./schema/ghost.schema.json"
+        }
+    ]
+}

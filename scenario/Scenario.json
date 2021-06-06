@@ -246,7 +246,7 @@
             "prop3": "prop_switched_on_electromagnet1"
         },
         {
-            "script": "TOGGLE_PROP1_STATE_CHANGES_TO_PROP2",
+            "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1" : "prop_ring_topology-button(deactivated)",
             "prop2" : "prop_ring_topology-button(activated)"
         },

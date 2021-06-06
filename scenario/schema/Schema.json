@@ -57,7 +57,7 @@
         },
         "reaction_type": {
             "type": "object",
-            "allOf": [{ "$ref": "adv/adv.schema.json#/definitions/command_type" }],
+            "allOf": [{ "$ref": "Script/Script.json#/definitions/script_type" }],
             "properties": {
            
                 "reg1": {

@@ -1,5 +1,5 @@
 {
-    "$id": "https://antcassidy.com/mansion.objects",
+    "$id": "https://raw.githubusercontent.com/a2g/adv/main/Schema.json",
     "$schema": "http://json-schema.org/draft-07/schema",
     "description": "a list of specific objects, and the reactions you can use on them",
     "type": "object",
@@ -37,7 +37,6 @@
         }
     },
     "definitions": {
-
         "inv_wrapper_type": {
             "type": "object",
             "required": [ "inv" ],
@@ -58,11 +57,9 @@
         },
         "transaction_type": {
             "type": "object",
-            "required": [ "type" ],
+            "allOf": [{ "$ref": "adv/adv.schema.json#/definitions/command_type" }],
             "properties": {
-                "type": {
-                    "$ref": "https://raw.githubusercontent.com/a2g/adv/main/adv.schema.json#/the_enum"
-                },
+           
                 "reg1": {
                     "$ref": "objects/Objects.json#/definitions/reg_type"
                 },
@@ -96,11 +93,7 @@
                 "prop6": {
                     "$ref": "objects/Objects.json#/definitions/prop_type"
                 }
-            },
-            {
-                "$ref": "https://raw.githubusercontent.com/a2g/adv/main/adv.schema.json#/big_set_of_if_thens"
             }
-            
         }
-    },
+    }
 }

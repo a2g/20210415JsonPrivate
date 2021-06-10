@@ -247,18 +247,18 @@
         },
         {
             "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
-            "prop1" : "prop_ring_topology-button(deactivated)",
-            "prop2" : "prop_ring_topology-button(activated)"
+            "prop1": "prop_ring_topology-button(deactivated)",
+            "prop2": "prop_ring_topology-button(activated)"
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",
-            "prop1" : "prop_ring_topology-button(activated)",
-            "prop2" : "prop_ring_topology-button(deactivated)"
+            "prop1": "prop_ring_topology-button(activated)",
+            "prop2": "prop_ring_topology-button(deactivated)"
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",
-            "prop1" : "prop_star_topology-button(deactivated)",
-            "prop2" : "prop_star_topology-button(activated)"
+            "prop1": "prop_star_topology-button(deactivated)",
+            "prop2": "prop_star_topology-button(activated)"
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",
@@ -267,7 +267,9 @@
         }
     ],
     "startingProps": [
-
+        {
+            "prop": "prop_broken_amp"
+        },
         {
             "prop": "prop_closed_radio"
         },
@@ -294,8 +296,45 @@
         },
         {
             "prop": "prop_raised_backboard"
+        },
+        {
+            "prop": "prop_powerpoint1"
+        },
+        {
+            "prop": "prop_exposed_vacuum_pipe1"
+        },
+        {
+            "prop": "prop_powerpoint2"
+        },
+        {
+            "prop": "prop_exposed_vacuum_pipe2"
+        },
+        {
+            "prop": "prop_powerpoint3"
+        },
+        {
+            "prop": "prop_exposed_vacuum_pipe3"
+        },
+        {
+            "prop": "prop_powerpoint4"
+        },
+        {
+            "prop": "prop_exposed_vacuum_pipe4"
+        },
+        {
+            "prop": "prop_powerpoint5"
+        },
+        {
+            "prop": "prop_exposed_vacuum_pipe5"
+        },
+        {
+            "prop": "prop_vacuum_tube"
         }
-        
     ],
-    "startingInvs": [ { "inv": "inv_guitar" } ]
+    "startingInvs": [
+        { "inv": "inv_guitar" },
+        { "inv": "inv_jar_of_protons" },
+        { "inv": "inv_box_of_electromagnets" }
+
+    ]
 }

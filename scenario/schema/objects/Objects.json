@@ -24,7 +24,6 @@
                 "inv_demon_death",
                 "inv_ash_scraper",
                 "inv_urn_of_ashes"
-
             ]
         },
         "prop_type": {
@@ -95,7 +94,8 @@
                 "reg_win",
                 "reg_win_by_police",
                 "reg_win_by_launch",
-                "reg_win_by_talkshow"
+                "reg_win_by_talkshow",
+                "reg_ability_to_play_guitar"
             ]
         }
     }

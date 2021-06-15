@@ -271,6 +271,16 @@
 			"alias": "guitar_man",
 			"inv1": "inv_guitar",
 			"reg1": "reg_ability_to_play_guitar"
+		},
+		{
+			"alias": "basketball_man",
+			"inv1": "inv_guitar",
+			"reg1": "reg_ability_to_play_basketball"
+		},
+		{
+			"alias": "physics_man",
+			"inv1": "inv_box_of_electromagnets",
+			"reg1": "inv_jar_of_protons"
 		}
 	],
 	"startingProps": [

@@ -1,0 +1,133 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "description": "This is the schema for the main Scenario file for the game. It basically a skeleton, pulling in other more substantial types from other files. It could be split up, but for now its easier managing three files Scenario, Schema and Objects",
+    "type": "object",
+    "properties": {
+        "characters": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/character_type"
+            }
+        },
+        "objectivePropName": {
+            "$ref": "objects/Objects.json#/definitions/prop_type"
+        },
+        "reactions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/reaction_type"
+            }
+        },
+        "startingInvs": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/inv_wrapper_type"
+            }
+        },
+        "startingProps": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "#/definitions/prop_wrapper_type"
+            }
+        },
+        "startingPropsArray": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "$ref": "objects/Objects.json#/definitions/prop_type"
+            }
+        }
+    },
+    "definitions": {
+        "inv_wrapper_type": {
+            "type": "object",
+            "required": [ "inv" ],
+            "properties": {
+                "inv": {
+                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                }
+            }
+        },
+        "character_type": {
+            "type": "object",
+            "required": [ "alias" ],
+            "properties": {
+                "alias": {
+                    "type": "string"
+                },
+                "reg1": {
+                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                },
+                "reg2": {
+                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                },
+                "inv1": {
+                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                },
+                "inv2": {
+                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                },
+                "inv3": {
+                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                }
+            }
+        },
+        "prop_wrapper_type": {
+            "type": "object",
+            "required": [ "prop" ],
+            "properties": {
+                "prop": {
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                }
+            }
+        },
+
+        "reaction_type": {
+            "type": "object",
+            "allOf": [
+                {
+                    "$ref": "Script/Script.json#/definitions/script_type"
+                }
+            ],
+            "properties": {
+                "reg1": {
+                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                },
+                "reg2": {
+                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                },
+                "inv1": {
+                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                },
+                "inv2": {
+                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                },
+                "inv3": {
+                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                },
+                "prop1": {
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                },
+                "prop2": {
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                },
+                "prop3": {
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                },
+                "prop4": {
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                },
+                "prop5": {
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                },
+                "prop6": {
+                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                }
+            }
+        }
+    }
+}

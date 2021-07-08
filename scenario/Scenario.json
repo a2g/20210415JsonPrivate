@@ -1,7 +1,10 @@
 {
+"blah": {
+
 	"reactions": [
 		{
 			"script": "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
+			"count" :  1,
 			"inv1": "inv_",
 			"inv2": "inv_",
 			"inv3": "inv_",
@@ -277,11 +280,6 @@
 			"inv1": "inv_guitar",
 			"reg1": "reg_ability_to_play_basketball"
 		},
-		{
-			"alias": "physics_man",
-			"inv1": "inv_box_of_electromagnets",
-			"reg1": "inv_jar_of_protons"
-		}
 	],
 	"startingProps": [
 		{
@@ -362,4 +360,5 @@
 			"inv": "inv_box_of_electromagnets"
 		}
 	]
+	}
 }

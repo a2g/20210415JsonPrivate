@@ -11,7 +11,7 @@
             }
         },
         "objectivePropName": {
-            "$ref": "objects/Objects.json#/definitions/prop_type"
+            "$ref": "objects/HospObjects.json#/definitions/prop_type"
         },
         "reactions": {
             "type": "array",
@@ -38,7 +38,7 @@
             "type": "array",
             "minItems": 1,
             "items": {
-                "$ref": "objects/Objects.json#/definitions/prop_type"
+                "$ref": "objects/HospObjects.json#/definitions/prop_type"
             }
         }
     },
@@ -48,7 +48,7 @@
             "required": [ "inv" ],
             "properties": {
                 "inv": {
-                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                    "$ref": "objects/HospObjects.json#/definitions/inv_type"
                 }
             }
         },
@@ -60,19 +60,19 @@
                     "type": "string"
                 },
                 "reg1": {
-                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                    "$ref": "objects/HospObjects.json#/definitions/reg_type"
                 },
                 "reg2": {
-                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                    "$ref": "objects/HospObjects.json#/definitions/reg_type"
                 },
                 "inv1": {
-                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                    "$ref": "objects/HospObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                    "$ref": "objects/HospObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                    "$ref": "objects/HospObjects.json#/definitions/inv_type"
                 }
             }
         },
@@ -81,7 +81,7 @@
             "required": [ "prop" ],
             "properties": {
                 "prop": {
-                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                    "$ref": "objects/HospObjects.json#/definitions/prop_type"
                 }
             }
         },
@@ -95,37 +95,37 @@
             ],
             "properties": {
                 "reg1": {
-                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                    "$ref": "objects/HospObjects.json#/definitions/reg_type"
                 },
                 "reg2": {
-                    "$ref": "objects/Objects.json#/definitions/reg_type"
+                    "$ref": "objects/HospObjects.json#/definitions/reg_type"
                 },
                 "inv1": {
-                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                    "$ref": "objects/HospObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                    "$ref": "objects/HospObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "objects/Objects.json#/definitions/inv_type"
+                    "$ref": "objects/HospObjects.json#/definitions/inv_type"
                 },
                 "prop1": {
-                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                    "$ref": "objects/HospObjects.json#/definitions/prop_type"
                 },
                 "prop2": {
-                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                    "$ref": "objects/HospObjects.json#/definitions/prop_type"
                 },
                 "prop3": {
-                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                    "$ref": "objects/HospObjects.json#/definitions/prop_type"
                 },
                 "prop4": {
-                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                    "$ref": "objects/HospObjects.json#/definitions/prop_type"
                 },
                 "prop5": {
-                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                    "$ref": "objects/HospObjects.json#/definitions/prop_type"
                 },
                 "prop6": {
-                    "$ref": "objects/Objects.json#/definitions/prop_type"
+                    "$ref": "objects/HospObjects.json#/definitions/prop_type"
                 }
             }
         }

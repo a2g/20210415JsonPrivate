@@ -1,6 +1,4 @@
 {
-"blah": {
-
 	"reactions": [
 		{
 			"script": "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
@@ -271,15 +269,15 @@
 	],
 	"characters": [
 		{
-			"alias": "guitar_man",
+			"alias": "physics_man",
 			"inv1": "inv_guitar",
 			"reg1": "reg_ability_to_play_guitar"
 		},
 		{
-			"alias": "basketball_man",
+			"alias": "gothic_lady",
 			"inv1": "inv_guitar",
 			"reg1": "reg_ability_to_play_basketball"
-		},
+		}
 	],
 	"startingProps": [
 		{
@@ -360,5 +358,4 @@
 			"inv": "inv_box_of_electromagnets"
 		}
 	]
-	}
 }

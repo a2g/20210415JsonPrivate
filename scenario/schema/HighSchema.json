@@ -12,37 +12,37 @@
             ],
             "properties": {
                 "reg1": {
-                    "$ref": "HospObjects.json#/definitions/reg_type"
+                    "$ref": "HighObjects.json#/definitions/reg_type"
                 },
                 "reg2": {
-                    "$ref": "HospObjects.json#/definitions/reg_type"
+                    "$ref": "HighObjects.json#/definitions/reg_type"
                 },
                 "inv1": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "HighObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "HighObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "HighObjects.json#/definitions/inv_type"
                 },
                 "prop1": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "HighObjects.json#/definitions/prop_type"
                 },
                 "prop2": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "HighObjects.json#/definitions/prop_type"
                 },
                 "prop3": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "HighObjects.json#/definitions/prop_type"
                 },
                 "prop4": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "HighObjects.json#/definitions/prop_type"
                 },
                 "prop5": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "HighObjects.json#/definitions/prop_type"
                 },
                 "prop6": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "HighObjects.json#/definitions/prop_type"
                 }
             }
         },
@@ -51,7 +51,7 @@
             "required": [ "inv" ],
             "properties": {
                 "inv": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "HighObjects.json#/definitions/inv_type"
                 }
             }
         },
@@ -63,19 +63,19 @@
                     "type": "string"
                 },
                 "reg1": {
-                    "$ref": "HospObjects.json#/definitions/reg_type"
+                    "$ref": "HighObjects.json#/definitions/reg_type"
                 },
                 "reg2": {
-                    "$ref": "HospObjects.json#/definitions/reg_type"
+                    "$ref": "HighObjects.json#/definitions/reg_type"
                 },
                 "inv1": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "HighObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "HighObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "HighObjects.json#/definitions/inv_type"
                 }
             }
         },
@@ -84,7 +84,7 @@
             "required": [ "prop" ],
             "properties": {
                 "prop": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "HighObjects.json#/definitions/prop_type"
                 }
             }
         }
@@ -94,7 +94,7 @@
             "type": "array",
             "minItems": 1,
             "items": {
-                "$ref": "HospObjects.json#/definitions/prop_type"
+                "$ref": "HighObjects.json#/definitions/prop_type"
             }
         },
         "startingThings": {
@@ -105,15 +105,15 @@
                 "type": "object",
                 "properties": {
                     "char": {
-                        "$ref": "HospObjects.json#/definitions/char_type"
+                        "$ref": "HighObjects.json#/definitions/char_type"
                     },
                     "thing": {
                         "oneOf": [
                             {
-                                "$ref": "HospObjects.json#/definitions/inv_type"
+                                "$ref": "HighObjects.json#/definitions/inv_type"
                             },
                             {
-                                "$ref": "HospObjects.json#/definitions/reg_type"
+                                "$ref": "HighObjects.json#/definitions/reg_type"
                             }
                         ]
                     }
@@ -122,7 +122,7 @@
         },
 
         "goalPropName": {
-            "$ref": "HospObjects.json#/definitions/prop_type"
+            "$ref": "HighObjects.json#/definitions/prop_type"
         },
         "characters": {
             "type": "array",

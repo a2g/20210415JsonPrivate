@@ -55,30 +55,7 @@
                 }
             }
         },
-        "character_type": {
-            "type": "object",
-            "required": [ "alias" ],
-            "properties": {
-                "alias": {
-                    "type": "string"
-                },
-                "reg1": {
-                    "$ref": "HospObjects.json#/definitions/reg_type"
-                },
-                "reg2": {
-                    "$ref": "HospObjects.json#/definitions/reg_type"
-                },
-                "inv1": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
-                },
-                "inv2": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
-                },
-                "inv3": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
-                }
-            }
-        },
+   
         "prop_wrapper_type": {
             "type": "object",
             "required": [ "prop" ],
@@ -124,13 +101,7 @@
         "goalPropName": {
             "$ref": "HospObjects.json#/definitions/prop_type"
         },
-        "characters": {
-            "type": "array",
-            "minItems": 1,
-            "items": {
-                "$ref": "#/definitions/character_type"
-            }
-        },
+
         "reactions": {
             "type": "array",
             "minItems": 1,

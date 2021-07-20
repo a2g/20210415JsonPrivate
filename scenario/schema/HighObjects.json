@@ -1,4 +1,5 @@
 {
+    "$schema": "http://json-schema.org/draft-07/schema",
     "description": "a list of specific objects that gets references from mansion.gates.schema.json",
     "type": "object",
     "definitions": {
@@ -61,7 +62,9 @@
                 "reg_win_by_police",
                 "reg_win_by_launch",
                 "reg_win_by_talkshow",
-                "reg_ability_to_play_guitar"
+                "reg_ability_to_play_guitar",
+                "reg_sports_storeroom_access",
+                "reg_musicroom_access"
             ]
         }
     }

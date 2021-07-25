@@ -19,12 +19,12 @@
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_exorcism_by_ashes",
-            "inv1": "inv_exorcism_success"
+            "inv1": "inv_solution"
         },
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_exorcism_by_physics",
-            "inv1": "inv_exorcism_success"
+            "inv1": "inv_solution"
         },
         {
             "script": "INV1_WITH_PROP1_REVEALS_PROP2_KEPT_ALL",
@@ -180,15 +180,15 @@
     ],
     "startingThings": [
         {
-            "char": "goth_lady",
+            "char": "char_goth_lady",
             "thing": "inv_urn_of_ashes"
         },
         {
-            "char": "goth_lady",
+            "char": "char_goth_lady",
             "thing": "inv_ash_scraper"
         },
         {
-            "char": "physics_man",
+            "char": "char_physics_man",
             "thing": "reg_physics_man_ability"
         }
     ],

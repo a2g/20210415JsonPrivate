@@ -19,7 +19,6 @@
                 "inv_radio_tube",
                 "inv_broken_amp",
                 "inv_fixed_amp",
-                "inv_guitar",
                 "inv_inflated_ball",
                 "inv_pole_hook",
                 "inv_deflated_ball",
@@ -29,9 +28,15 @@
                 "inv_jar_of_protons",
                 "inv_tube_carrier",
                 "inv_box_of_electromagnets",
-                "inv_demon_death",
+                "inv_solution",
                 "inv_ash_scraper",
-                "inv_urn_of_ashes"
+                "inv_urn_of_ashes",
+                "inv_confiscated_guitar",
+                "inv_single_coil_pickup",
+                "inv_accoustic_guitar",
+                "inv_eletro-accoustic_guitar",
+                "inv_accordian_with_bike_adapter",
+                "inv_accordian"
             ]
         },
         "prop_type": {
@@ -43,16 +48,19 @@
                 "prop_opened_radio_with_radio_tube",
                 "prop_broken_amp",
                 "prop_plugged_in_amp",
+                "prop_confiscated_guitar",
+                "prop_single_coil_pickup",
+                "prop_accoustic_guitar",
                 "prop_gym_powerpoint",
                 "prop_death_by_guitar",
                 "prop_death_by_slamdunk",
-                "prop_death_by_physics",
                 "prop_lowered_backboard",
                 "prop_raised_backboard",
                 "prop_deflated_ball",
                 "prop_pump_with_bike_adapter",
                 "prop_inflating_needle",
-                "prop_pole_hook"
+                "prop_pole_hook",
+                "prop_accordian"
             ]
         },
         "reg_type": {

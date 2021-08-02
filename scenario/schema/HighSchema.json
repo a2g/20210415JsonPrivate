@@ -43,15 +43,22 @@
                 },
                 "prop6": {
                     "$ref": "HighObjects.json#/definitions/prop_type"
+                },
+                "restrictions": {
+                    "type": "array",
+                    "minItems": 1,
+                    "items": {
+                        "$ref": "#/definitions/char_wrapper_type"
+                    }
                 }
             }
         },
-        "inv_wrapper_type": {
+        "char_wrapper_type": {
             "type": "object",
-            "required": [ "inv" ],
+            "required": [ "char" ],
             "properties": {
-                "inv": {
-                    "$ref": "HighObjects.json#/definitions/inv_type"
+                "char": {
+                    "$ref": "HighObjects.json#/definitions/char_type"
                 }
             }
         },

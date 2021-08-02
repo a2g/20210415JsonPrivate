@@ -35,7 +35,7 @@
                 "inv_single_coil_pickup",
                 "inv_accoustic_guitar",
                 "inv_eletro-accoustic_guitar",
-                "inv_accordian_with_bike_adapter",
+                "inv_accordian_with_needle_adapter",
                 "inv_accordian"
             ]
         },
@@ -56,7 +56,6 @@
                 "prop_death_by_slamdunk",
                 "prop_lowered_backboard",
                 "prop_raised_backboard",
-                "prop_deflated_ball",
                 "prop_pump_with_bike_adapter",
                 "prop_inflating_needle",
                 "prop_pole_hook",

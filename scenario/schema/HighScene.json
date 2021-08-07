@@ -30,7 +30,8 @@
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_inflating_needle",
-            "inv1": "inv_inflating_needle"
+            "inv1": "inv_inflating_needle",
+            "restrictions": [ { "char": "char_sports_kid" } ]
         },
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",
@@ -133,12 +134,14 @@
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_confiscated_guitar",
-            "inv1": "inv_confiscated_guitar"
+            "inv1": "inv_confiscated_guitar",
+            "restrictions": [ { "char": "char_prefect" } ]
         },
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_single_coil_pickup",
-            "inv1": "inv_single_coil_pickup"
+            "inv1": "inv_single_coil_pickup",
+            "restrictions": [ { "char": "char_music_kid" } ]
         },
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",

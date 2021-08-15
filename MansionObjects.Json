@@ -37,13 +37,13 @@
 
             ]
         },
-        "reg_type": {
+        "flag_type": {
             "enum": [
-                "reg_",
-                "reg_win",
-                "reg_win_by_police",
-                "reg_win_by_launch",
-                "reg_win_by_talkshow"
+                "flag_",
+                "flag_win",
+                "flag_win_by_police",
+                "flag_win_by_launch",
+                "flag_win_by_talkshow"
 
         ] 
         }

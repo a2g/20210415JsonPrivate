@@ -13,8 +13,8 @@
             "prop5": "prop_",
             "prop6": "prop_",
             "prop7": "prop_",
-            "reg1": "reg_",
-            "reg2": "reg_"
+            "flag1": "flag_",
+            "flag2": "flag_"
         },
         {
             "script": "PROP1_GOES_WHEN_GRAB_INV1",
@@ -189,7 +189,7 @@
         },
         {
             "char": "char_physics_man",
-            "thing": "reg_physics_man_ability"
+            "thing": "flag_physics_man_ability"
         }
     ],
     "startingProps": [

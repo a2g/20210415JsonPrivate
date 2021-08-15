@@ -13,8 +13,8 @@
             "prop5": "prop_",
             "prop6": "prop_",
             "prop7": "prop_",
-            "reg1": "reg_",
-            "reg2": "reg_"
+            "flag1": "flag_",
+            "flag2": "flag_"
         },
         {
             "script": "INV1_WITH_PROP1_REVEALS_PROP2_KEPT_ALL",
@@ -195,7 +195,7 @@
     "startingThings": [
         {
             "char": "char_sports_kid",
-            "thing": "reg_sports_storeroom_access"
+            "thing": "flag_sports_storeroom_access"
         },
         {
             "char": "char_sports_kid",
@@ -203,7 +203,7 @@
         },
         {
             "char": "char_music_kid",
-            "thing": "reg_musicroom_access"
+            "thing": "flag_musicroom_access"
         }
     ]
 }

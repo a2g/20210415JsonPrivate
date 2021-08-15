@@ -73,12 +73,12 @@
                 "prop_fully_accelerated_vacuum_tube"
             ]
         },
-        "reg_type": {
+        "flag_type": {
             "enum": [
-                "reg_",
-                "reg_win",
-                "reg_physics_man_ability",
-                "reg_goth_lady_ability"
+                "flag_",
+                "flag_win",
+                "flag_physics_man_ability",
+                "flag_goth_lady_ability"
             ]
         }
     }

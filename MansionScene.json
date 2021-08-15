@@ -20,11 +20,11 @@
                 "type": {
                     "$ref": "#/definitions/type_type"
                 },
-                "reg1": {
-                    "$ref": "objects/mansion.objects.schema.json#/definitions/reg_type"
+                "flag1": {
+                    "$ref": "objects/mansion.objects.schema.json#/definitions/flag_type"
                 },
-                "reg2": {
-                    "$ref": "objects/mansion.objects.schema.json#/definitions/reg_type"
+                "flag2": {
+                    "$ref": "objects/mansion.objects.schema.json#/definitions/flag_type"
                 },
                 "inv1": {
                     "$ref": "objects/mansion.objects.schema.json#/definitions/inv_type"
@@ -254,13 +254,13 @@
                     "if": {
                         "properties": {
                             "type": {
-                                "const": "AUTO_REG1_TRIGGERED_BY_PROPS",
+                                "const": "AUTO_FLAG1_TRIGGERED_BY_PROPS",
                                 "description": "updated the vacuum tube"
                             }
                         }
                     },
                     "then": {
-                        "required": [ "reg1" ],
+                        "required": [ "flag1" ],
                         "not": {
                             "required": [
                                 "inv1",
@@ -302,12 +302,12 @@
                     "if": {
                         "properties": {
                             "type": {
-                                "const": "AUTO_REG1_TRIGGERS_REG2"
+                                "const": "AUTO_FLAG1_TRIGGERS_FLAG2"
                             }
                         }
                     },
                     "then": {
-                        "required": [ "reg1", "reg2" ],
+                        "required": [ "flag1", "flag2" ],
                         "not": {
                             "required": [
                                 "prop1",
@@ -339,8 +339,8 @@
                 "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1",
                 "PROP1_GOES_WHEN_GRAB_INV1",
                 "TOGGLE_PROP1_BECOMES_PROP2",
-                "AUTO_REG1_TRIGGERED_BY_PROPS",
-                "AUTO_REG1_TRIGGERS_REG2"
+                "AUTO_FLAG1_TRIGGERED_BY_PROPS",
+                "AUTO_FLAG1_TRIGGERS_FLAG2"
             ]
         }
     },
@@ -359,6 +359,6 @@
     "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1": "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1",
     "PROP1_GOES_WHEN_GRAB_INV1": "PROP1_GOES_WHEN_GRAB_INV1",
     "TOGGLE_PROP1_BECOMES_PROP2": "TOGGLE_PROP1_BECOMES_PROP2",
-    "AUTO_REG1_TRIGGERED_BY_PROPS": "AUTO_REG1_TRIGGERED_BY_PROPS",
-    "AUTO_REG1_TRIGGERS_REG2": "AUTO_REG1_TRIGGERS_REG2"
+    "AUTO_FLAG1_TRIGGERED_BY_PROPS": "AUTO_FLAG1_TRIGGERED_BY_PROPS",
+    "AUTO_FLAG1_TRIGGERS_FLAG2": "AUTO_FLAG1_TRIGGERS_FLAG2"
 }

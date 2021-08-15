@@ -11,11 +11,11 @@
                 }
             ],
             "properties": {
-                "reg1": {
-                    "$ref": "HighObjects.json#/definitions/reg_type"
+                "flag1": {
+                    "$ref": "HighObjects.json#/definitions/flag_type"
                 },
-                "reg2": {
-                    "$ref": "HighObjects.json#/definitions/reg_type"
+                "flag2": {
+                    "$ref": "HighObjects.json#/definitions/flag_type"
                 },
                 "inv1": {
                     "$ref": "HighObjects.json#/definitions/inv_type"
@@ -97,7 +97,7 @@
                                 "$ref": "HighObjects.json#/definitions/inv_type"
                             },
                             {
-                                "$ref": "HighObjects.json#/definitions/reg_type"
+                                "$ref": "HighObjects.json#/definitions/flag_type"
                             }
                         ]
                     }

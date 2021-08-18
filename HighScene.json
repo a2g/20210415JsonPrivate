@@ -18,12 +18,12 @@
             "flag2": "flag_"
         },
         {
-            "script": "AUTO_FLAG1_SETS_FLAG2",
+            "script": "AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_death_by_guitar",
             "flag2": "flag_win"
         },
         {
-            "script":"AUTO_FLAG1_SETS_FLAG2",
+            "script":"AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_death_by_slamdunk",
             "flag2": "flag_win"
         },

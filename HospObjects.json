@@ -7,38 +7,58 @@
         "char_type": {
             "enum": [
                 "char_",
-                "char_physics_man",
-                "char_goth_lady",
-                "char_detective_lady",
-                "char_army_man"
+                "char_sports_kid",
+                "char_music_kid",
+                "char_prefect",
+                "char_army_kid",
+                "char_science_kid"
+
             ]
         },
         "inv_type": {
             "enum": [
                 "inv_",
+                "inv_screwdriver",
+                "inv_radio_tube",
+                "inv_broken_amp",
+                "inv_fixed_amp",
+                "inv_guitar",
+                "inv_inflated_ball",
+                "inv_pole_hook",
+                "inv_deflated_ball",
+                "inv_pump_with_needle_adapter",
+                "inv_inflating_needle",
+                "inv_pump_with_bike_adapter",
+                "inv_jar_of_protons",
                 "inv_tube_carrier",
                 "inv_box_of_electromagnets",
-                "inv_solution",
+                "inv_demon_death",
                 "inv_ash_scraper",
-                "inv_urn_of_ashes",
-                "inv_dar_of_protons"
+                "inv_urn_of_ashes"
             ]
         },
         "prop_type": {
             "enum": [
                 "prop_",
-                "prop_exorcism_by_relocation",
-                "prop_exorcism_by_ashes",
-                "prop_exorcism_by_physics",
+                "prop_screwdriver",
+                "prop_closed_radio",
+                "prop_opened_radio",
+                "prop_opened_radio_with_radio_tube",
+                "prop_broken_amp",
+                "prop_plugged_in_amp",
+                "prop_gym_powerpoint",
+              
+                "prop_lowered_backboard",
+                "prop_raised_backboard",
                 "prop_accelerated_vacuum_tube",
                 "prop_star_topology-button(activated)",
                 "prop_star_topology-button(deactivated)",
                 "prop_ring_topology-button(activated)",
                 "prop_ring_topology-button(deactivated)",
-                "prop_destination_switch(station1)",
-                "prop_destination_switch(station2)",
-                "prop_destination_switch(station3)",
-                "prop_destination_switch(station4)",
+                "prop_destination_switch(test_run)",
+                "prop_destination_switch(maths_and_science)",
+                "prop_destination_switch(humanities)",
+                "prop_destination_switch(sportsfield)",
                 "prop_destination_switch(languages)",
                 "prop_powerpoint1",
                 "prop_exposed_vacuum_pipe1",
@@ -70,15 +90,24 @@
                 "prop_mildly_accelerated_vacuum_tube",
                 "prop_moderately_accelerated_vacuum_tube",
                 "prop_partly_accelerated_vacuum_tube",
-                "prop_fully_accelerated_vacuum_tube"
+                "prop_fully_accelerated_vacuum_tube",
+                "prop_deflated_ball",
+                "prop_pump_with_bike_adapter",
+                "prop_inflating_needle",
+                "prop_pole_hook"
             ]
         },
         "flag_type": {
             "enum": [
                 "flag_",
                 "flag_win",
-                "flag_physics_man_ability",
-                "flag_goth_lady_ability"
+                "flag_win_by_police",
+                "flag_win_by_launch",
+                "flag_win_by_talkshow",
+                "flag_ability_to_play_guitar",
+                "flag_death_by_guitar",
+                "flag_death_by_slamdunk",
+                "flag_death_by_physics"
             ]
         }
     }

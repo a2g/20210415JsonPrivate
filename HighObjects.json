@@ -9,34 +9,31 @@
                 "char_sports_kid",
                 "char_music_kid",
                 "char_prefect",
-                "char_army_man"
+                "char_army_kid",
+                "char_science_kid"
+
             ]
         },
         "inv_type": {
             "enum": [
                 "inv_",
+                "inv_solution",
                 "inv_screwdriver",
                 "inv_radio_tube",
                 "inv_broken_amp",
                 "inv_fixed_amp",
-                "inv_inflated_ball",
                 "inv_pole_hook",
+                "inv_inflated_ball",
                 "inv_deflated_ball",
-                "inv_pump_with_needle_adapter",
-                "inv_inflating_needle",
-                "inv_pump_with_bike_adapter",
-                "inv_jar_of_protons",
-                "inv_tube_carrier",
-                "inv_box_of_electromagnets",
-                "inv_solution",
-                "inv_ash_scraper",
-                "inv_urn_of_ashes",
                 "inv_confiscated_guitar",
                 "inv_single_coil_pickup",
                 "inv_accoustic_guitar",
                 "inv_eletro-accoustic_guitar",
-                "inv_accordian_with_needle_adapter",
-                "inv_accordian"
+                "inv_accordian",
+                "inv_inflating_needle",
+                "inv_pump_with_bike_adapter",
+                "inv_pump_with_needle_adapter",
+                "inv_accordian_with_needle_adapter"
             ]
         },
         "prop_type": {
@@ -52,8 +49,6 @@
                 "prop_single_coil_pickup",
                 "prop_accoustic_guitar",
                 "prop_gym_powerpoint",
-                "prop_death_by_guitar",
-                "prop_death_by_slamdunk",
                 "prop_lowered_backboard",
                 "prop_raised_backboard",
                 "prop_pump_with_bike_adapter",
@@ -66,9 +61,8 @@
             "enum": [
                 "flag_",
                 "flag_win",
-                "flag_win_by_police",
-                "flag_win_by_launch",
-                "flag_win_by_talkshow",
+                "flag_death_by_guitar",
+                "flag_death_by_slamdunk",
                 "flag_ability_to_play_guitar",
                 "flag_sports_storeroom_access",
                 "flag_musicroom_access"

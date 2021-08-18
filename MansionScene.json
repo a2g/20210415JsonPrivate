@@ -77,7 +77,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "INV1_BECOMES_INV2_VIA_KEEPING_INV3",
+                                        "const": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
                                         "description": "eg FLAT BALL becomes INFLATED BALL via keeping PUMP"
                                     }
                                 }
@@ -85,7 +85,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "INV1_BECOMES_INV2_VIA_LOSING_INV3",
+                                        "const": "INV1_BECOMES_INV2_BY_LOSING_INV3",
                                         "description": "eg broken amp becomes FIXED AMP via losing RADIO_TUBE"
                                     }
                                 }
@@ -121,7 +121,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
+                                        "const": "PROP1_BECOMES_PROP2_BY_LOSING_INV1",
                                         "description": "powerpoint -> plugged-in-amp via losing INV_FIXEDAMP"
                                     }
                                 }
@@ -129,7 +129,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "PROP1_BECOMES_PROP2_VIA_KEEPING_INV1",
+                                        "const": "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
                                         "description": "eg RAISEDBACKBOARD becomes LOWEREDBACKBOARD vie keeping POLEHOOK",
                                         "title": " eg CLOSED_RADIO becomes  OPENED_RADIO_WITH_TUBE via keeping SCREWDRIVER"
                                     }
@@ -138,7 +138,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "OBTAIN_INV1_VIA_PROP1_WITH_PROP2_LOSE_PROPS",
+                                        "const": "OBTAIN_INV1_BY_PROP1_WITH_PROP2_LOSE_PROPS",
                                         "description": "eg use radiation suit with the meteor",
                                         "title" :"By using the A with B you are able to obtain the INV"
                                     }
@@ -175,7 +175,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "PROP1_BECOMES_PROP2_VIA_LOSING_PROP3",
+                                        "const": "PROP1_BECOMES_PROP2_BY_LOSING_PROP3",
                                         "description": "eg none yet"
                                     }
                                 }
@@ -274,7 +274,7 @@
                     "if": {
                         "properties": {
                             "type": {
-                                "const": "INV1_BECOMES_INV2_VIA_KEEPING_PROP",
+                                "const": "INV1_BECOMES_INV2_BY_KEEPING_PROP",
                                 "description": "manuscript b edited via tpewriter"
                             }
                         }
@@ -327,15 +327,15 @@
                 "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
                 "INV1_AND_INV2_FORM_AN_INV",
                 "INV1_AND_INV2_GENERATE_INV",
-                "INV1_BECOMES_INV2_VIA_KEEPING_INV3",
-                "INV1_BECOMES_INV2_VIA_KEEPING_PROP1",
-                "INV1_BECOMES_INV2_VIA_LOSING_INV3",
+                "INV1_BECOMES_INV2_BY_KEEPING_INV3",
+                "INV1_BECOMES_INV2_BY_KEEPING_PROP1",
+                "INV1_BECOMES_INV2_BY_LOSING_INV3",
                 "INV1_WITH_PROP1_REVEALS_PROP2_KEPT_ALL",
-                "OBTAIN_INV1_VIA_PROP1_WITH_PROP2_LOSE_PROPS",
-                "PROP1_BECOMES_PROP2_VIA_KEEPING_INV1",
-                "PROP1_BECOMES_PROP2_VIA_KEEPING_PROP3",
-                "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-                "PROP1_BECOMES_PROP2_VIA_LOSING_PROP3",
+                "OBTAIN_INV1_BY_PROP1_WITH_PROP2_LOSE_PROPS",
+                "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
+                "PROP1_BECOMES_PROP2_BY_KEEPING_PROP3",
+                "PROP1_BECOMES_PROP2_BY_LOSING_INV1",
+                "PROP1_BECOMES_PROP2_BY_LOSING_PROP3",
                 "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1",
                 "PROP1_GOES_WHEN_GRAB_INV1",
                 "TOGGLE_PROP1_BECOMES_PROP2",
@@ -347,15 +347,15 @@
     "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE": "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
     "INV1_AND_INV2_FORM_AN_INV": "INV1_AND_INV2_FORM_AN_INV",
     "INV1_AND_INV2_GENERATE_INV": "INV1_AND_INV2_GENERATE_INV",
-    "INV1_BECOMES_INV2_VIA_KEEPING_INV3": "INV1_BECOMES_INV2_VIA_KEEPING_INV3",
-    "INV1_BECOMES_INV2_VIA_KEEPING_PROP1": "INV1_BECOMES_INV2_VIA_KEEPING_PROP1",
-    "INV1_BECOMES_INV2_VIA_LOSING_INV3": "INV1_BECOMES_INV2_VIA_LOSING_INV3",
+    "INV1_BECOMES_INV2_BY_KEEPING_INV3": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
+    "INV1_BECOMES_INV2_BY_KEEPING_PROP1": "INV1_BECOMES_INV2_BY_KEEPING_PROP1",
+    "INV1_BECOMES_INV2_BY_LOSING_INV3": "INV1_BECOMES_INV2_BY_LOSING_INV3",
     "INV1_WITH_PROP1_REVEALS_PROP2_KEPT_ALL": "INV1_WITH_PROP1_REVEALS_PROP2_KEPT_ALL",
-    "OBTAIN_INV1_VIA_PROP1_WITH_PROP2_LOSE_PROPS" : "OBTAIN_INV1_VIA_PROP1_WITH_PROP2_LOSE_PROPS",
-    "PROP1_BECOMES_PROP2_VIA_KEEPING_INV1": "PROP1_BECOMES_PROP2_VIA_KEEPING_INV1",
-    "PROP1_BECOMES_PROP2_VIA_KEEPING_PROP3": "PROP1_BECOMES_PROP2_VIA_KEEPING_PROP3",
-    "PROP1_BECOMES_PROP2_VIA_LOSING_INV1": "PROP1_BECOMES_PROP2_VIA_LOSING_INV1",
-    "PROP1_BECOMES_PROP2_VIA_LOSING_PROP3": "PROP1_BECOMES_PROP2_VIA_LOSING_PROP3",
+    "OBTAIN_INV1_BY_PROP1_WITH_PROP2_LOSE_PROPS" : "OBTAIN_INV1_BY_PROP1_WITH_PROP2_LOSE_PROPS",
+    "PROP1_BECOMES_PROP2_BY_KEEPING_INV1": "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
+    "PROP1_BECOMES_PROP2_BY_KEEPING_PROP3": "PROP1_BECOMES_PROP2_BY_KEEPING_PROP3",
+    "PROP1_BECOMES_PROP2_BY_LOSING_INV1": "PROP1_BECOMES_PROP2_BY_LOSING_INV1",
+    "PROP1_BECOMES_PROP2_BY_LOSING_PROP3": "PROP1_BECOMES_PROP2_BY_LOSING_PROP3",
     "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1": "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1",
     "PROP1_GOES_WHEN_GRAB_INV1": "PROP1_GOES_WHEN_GRAB_INV1",
     "TOGGLE_PROP1_BECOMES_PROP2": "TOGGLE_PROP1_BECOMES_PROP2",

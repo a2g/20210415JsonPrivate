@@ -5,7 +5,6 @@
     "definitions": {
         "char_type": {
             "enum": [
-                "char_",
                 "char_sports_kid",
                 "char_music_kid",
                 "char_prefect",
@@ -16,7 +15,6 @@
         },
         "inv_type": {
             "enum": [
-                "inv_",
                 "inv_solution",
                 "inv_screwdriver",
                 "inv_radio_tube",
@@ -38,7 +36,6 @@
         },
         "prop_type": {
             "enum": [
-                "prop_",
                 "prop_screwdriver",
                 "prop_closed_radio",
                 "prop_opened_radio",
@@ -59,7 +56,6 @@
         },
         "flag_type": {
             "enum": [
-                "flag_",
                 "flag_win",
                 "flag_death_by_guitar",
                 "flag_death_by_slamdunk",

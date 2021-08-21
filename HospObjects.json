@@ -6,18 +6,15 @@
     "definitions": {
         "char_type": {
             "enum": [
-                "char_",
                 "char_sports_kid",
                 "char_music_kid",
                 "char_prefect",
                 "char_army_kid",
                 "char_science_kid"
-
             ]
         },
         "inv_type": {
             "enum": [
-                "inv_",
                 "inv_screwdriver",
                 "inv_radio_tube",
                 "inv_broken_amp",
@@ -39,7 +36,6 @@
         },
         "prop_type": {
             "enum": [
-                "prop_",
                 "prop_screwdriver",
                 "prop_closed_radio",
                 "prop_opened_radio",
@@ -47,7 +43,6 @@
                 "prop_broken_amp",
                 "prop_plugged_in_amp",
                 "prop_gym_powerpoint",
-              
                 "prop_lowered_backboard",
                 "prop_raised_backboard",
                 "prop_accelerated_vacuum_tube",
@@ -99,7 +94,6 @@
         },
         "flag_type": {
             "enum": [
-                "flag_",
                 "flag_win",
                 "flag_win_by_police",
                 "flag_win_by_launch",

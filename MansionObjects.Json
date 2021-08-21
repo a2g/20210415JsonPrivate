@@ -6,7 +6,6 @@
     "definitions": {
         "inv_type": {
             "enum": [
-                "inv_",
                 "inv_manuscript",
                 "inv_manuscript_edited",
                 "inv_car_key",
@@ -15,7 +14,6 @@
         },
         "prop_type": {
             "enum": [
-                "prop_",
                 "prop_screwdriver",
                 "prop_mailbox_open",
                 "prop_mailbox_closed",
@@ -34,12 +32,10 @@
                 "prop_meteor",
                 "prop_radiation_suit",
                 "prop_meteor_in_trunk"
-
             ]
         },
         "flag_type": {
             "enum": [
-                "flag_",
                 "flag_win",
                 "flag_win_by_police",
                 "flag_win_by_launch",

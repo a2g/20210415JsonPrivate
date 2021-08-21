@@ -2,22 +2,6 @@
     "$schema": "./HospSchema.json",
     "reactions": [
         {
-            "script": "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
-            "count": 1,
-            "inv1": "inv_",
-            "inv2": "inv_",
-            "inv3": "inv_",
-            "prop1": "prop_",
-            "prop2": "prop_",
-            "prop3": "prop_",
-            "prop4": "prop_",
-            "prop5": "prop_",
-            "prop6": "prop_",
-            "prop7": "prop_",
-            "reg1": "reg_",
-            "reg2": "reg_"
-        },
-        {
             "script": "AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_death_by_guitar",
             "flag2": "flag_win"

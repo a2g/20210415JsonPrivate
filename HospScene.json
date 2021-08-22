@@ -7,10 +7,12 @@
             "flag2": "flag_win"
         },
         {
-            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
+            "script": "FLAG1_SET_BY_LOSING_INV1_USED_WITH_PROP1_AND_PROPS",
+            "flag1": "flag_death_by_physics",
             "inv1": "inv_jar_of_protons",
             "prop1": "prop_fully_accelerated_vacuum_tube",
-            "flag1": "flag_death_by_physics"
+            "prop2" : "prop_topology_button(ring_mode)",
+            "prop3" : "prop_destination_switch(test_run)"
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",
@@ -177,7 +179,7 @@
     "startingProps": [
 
         {
-            "prop": "prop_topology_button(ring_mode)"
+            "prop": "prop_topology_button(star_mode)"
         },
         {
             "prop": "prop_destination_switch(test_run)"

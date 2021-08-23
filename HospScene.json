@@ -141,13 +141,15 @@
         },
         {
             "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
-            "prop1":"prop_topology_button(ring_mode)",
-            "prop2":"prop_topology_button(star_mode)"
+            "prop1": "prop_topology_button(ring_mode)",
+            "prop2": "prop_topology_button(star_mode)",
+            "count": 1
         },
         {
             "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
-            "prop1":"prop_topology_button(star_mode)",
-            "prop2":"prop_topology_button(ring_mode)"
+            "prop1": "prop_topology_button(star_mode)",
+            "prop2": "prop_topology_button(ring_mode)",
+            "count": 2
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",
@@ -174,7 +176,7 @@
             "prop1":"prop_destination_switch(languages)",
             "prop2":"prop_destination_switch(test_run)"
         }
-        
+
     ],
     "startingProps": [
 
@@ -219,7 +221,7 @@
         }
     ],
     "startingThings": [
-      
+
         {
             "char": "char_science_kid",
             "thing": "inv_jar_of_protons"

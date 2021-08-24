@@ -149,7 +149,13 @@
             "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1": "prop_topology_button(star_mode)",
             "prop2": "prop_topology_button(ring_mode)",
-            "count": 2
+            "count": 1
+        },
+        {
+            "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
+            "prop1": "prop_topology_button(star_mode)",
+            "prop2": "prop_topology_button(ring_mode)",
+            "count": 1
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",

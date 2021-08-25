@@ -142,20 +142,17 @@
         {
             "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1": "prop_topology_button(ring_mode)",
-            "prop2": "prop_topology_button(star_mode)",
-            "count": 1
+            "prop2": "prop_topology_button(star_mode)"
         },
         {
             "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1": "prop_topology_button(star_mode)",
-            "prop2": "prop_topology_button(ring_mode)",
-            "count": 1
+            "prop2": "prop_topology_button(ring_mode)"
         },
         {
             "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1": "prop_topology_button(star_mode)",
-            "prop2": "prop_topology_button(ring_mode)",
-            "count": 1
+            "prop2": "prop_topology_button(ring_mode)"
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",
@@ -190,7 +187,7 @@
             "prop": "prop_topology_button(star_mode)"
         },
         {
-            "prop": "prop_destination_switch(test_run)"
+            "prop": "prop_destination_switch(maths_and_science)"
         },
         {
             "prop": "prop_powerpoint1"

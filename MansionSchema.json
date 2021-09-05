@@ -1,19 +1,19 @@
 {
     "$id": "https://antcassidy.com/mansion.objects",
     "$schema": "http://json-schema.org/draft-07/schema",
-    "description": "a list of specific objects, and the transactions you can use on them",
+    "description": "a list of specific objects, and the ionodes you can use on them",
     "type": "object",
     "properties": {
-        "transactions": {
+        "ionodes": {
             "type": "array",
             "minItems": 1,
             "items": {
-                "$ref": "#/definitions/transaction_type"
+                "$ref": "#/definitions/ionode_type"
             }
         }
     },
     "definitions": {
-        "transaction_type": {
+        "ionode_type": {
             "type": "object",
             "required": [ "type" ],
             "properties": {

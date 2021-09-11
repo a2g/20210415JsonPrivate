@@ -1,0 +1,34 @@
+{
+    "$schema": "./AllSchema.json",
+    "levels": [
+        {
+            "file": "IntroMusicKidScene.json",
+            "unlocksGlobalCharacter": "char_music_kid",
+            "prerequisiteType": "allOf",
+            "prerequisiteArray": []
+        },
+      
+        {
+            "file": "IntroArmyKidScene.json",
+            "unlocksGlobalCharacter": "char_army_kid",
+            "prerequisiteType": "allOf",
+            "prerequisiteArray": []
+        },
+        {
+            "file": "IntroGothKidScene.json",
+            "unlocksGlobalCharacter": "char_goth_kid",
+            "prerequisiteType": "allOf",
+            "prerequisiteArray": []
+        },
+        {
+            "file": "HighScene.json",
+            "unlocksGlobalCharacter": "",
+            "prerequisiteNeeded" : "threeOf",
+            "prerequisiteArray" : [
+                "char_goth_kid",
+                "char_army_kid",
+                "char_music_kid"
+            ]
+        }
+    ]
+}

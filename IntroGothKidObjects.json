@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "description": "a list of specific objects that gets references from mansion.gates.schema.json",
+    "type": "object",
+    "definitions": {
+        "char_type": {
+            "enum": [
+                "char_goth_kid"
+            ]
+        },
+        "inv_type": {
+            "enum": [
+                "inv_spell_book",
+                "inv_urn_of_ashes",
+                "inv_scraper"
+            ]
+        },
+        "prop_type": {
+            "enum": [
+                "prop_scraper",
+                "prop_urn_of_ashes",
+                "prop_spell_book"
+            ]
+        },
+        "flag_type": {
+            "enum": [
+                "flag_win"
+            ]
+        }
+    }
+}

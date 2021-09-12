@@ -1,0 +1,55 @@
+{
+    "$schema": "./IntroArmyKidSchema.json",
+    "reactions": [
+        {
+            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "inv1": "inv_harness",
+            "prop1": "prop_rope_tied_to_pipe",
+            "flag1": "flag_win"
+        },
+        {
+            "script": "PROP1_BECOMES_PROP2_BY_LOSING_INV1",
+            "prop1": "prop_exposed_pipe",
+            "prop2": "prop_rope_tied_to_pipe",
+            "inv1": "inv_static_rope"
+        },
+        {
+            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_static_rope",
+            "inv1": "inv_static_rope"
+        },
+        {
+            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_harness",
+            "inv1": "inv_harness"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "balcony_door(closed)",
+            "prop2": "balcony_door(open)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop2": "balcony_door(closed)",
+            "prop1": "balcony_door(open)"
+        }
+    ],
+    "startingProps": [
+        {
+            "prop": "balcony_door(closed)"
+        },
+        {
+            "prop": "prop_static_rope"
+        },
+        {
+            "prop": "prop_harness"
+        },
+        {
+            "prop": "prop_exposed_pipe"
+        },
+        {
+            "prop": "balcony_door(closed)"
+        }
+    ],
+    "startingThings": []
+}

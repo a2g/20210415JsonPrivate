@@ -1,0 +1,81 @@
+{
+    "$schema": "./IntroMusicKidSchema.json",
+    "description" : "a pick would be too small...so use guitar with amp is best, unless he starts with a pick",
+    "reactions": [
+        {
+            "script": "FLAG1_SET_BY_USING_PROP1_WITH_PROP2",
+            "prop1": "prop_guitar",
+            "prop2": "prop_amp(dialed-to-eleven)",
+            "flag1": "flag_win"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(off)",
+            "prop2": "prop_amp(dialed-to-one)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-one)",
+            "prop2": "prop_amp(dialed-to-two)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-two)",
+            "prop2": "prop_amp(dialed-to-three)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-three)",
+            "prop2": "prop_amp(dialed-to-four)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-four)",
+            "prop2": "prop_amp(dialed-to-five)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-five)",
+            "prop2": "prop_amp(dialed-to-six)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-six)",
+            "prop2": "prop_amp(dialed-to-seven)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-seven)",
+            "prop2": "prop_amp(dialed-to-eight)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-eight)",
+            "prop2": "prop_amp(dialed-to-nine)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-nine)",
+            "prop2": "prop_amp(dialed-to-ten)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-ten)",
+            "prop2": "prop_amp(dialed-to-eleven)"
+        },
+        {
+            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "prop1": "prop_amp(dialed-to-eleven)",
+            "prop2": "prop_amp(off)"
+        }
+    ],
+    "startingProps": [
+        {
+            "prop": "prop_amp(off)"
+        },
+        {
+            "prop" :"prop_amp(off)"
+        }
+    ],
+    "startingThings": []
+}

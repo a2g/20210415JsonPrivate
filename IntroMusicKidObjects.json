@@ -1,0 +1,41 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "description": "a list of specific objects that gets references from mansion.gates.schema.json",
+    "type": "object",
+    "definitions": {
+        "char_type": {
+            "enum": [
+                "char_music_kid"
+            ]
+        },
+        "inv_type": {
+            "enum": [
+              ""
+                
+            ]
+        },
+        "prop_type": {
+            "enum": [
+                "prop_guitar",
+                "prop_amp(off)",
+                "prop_amp(dialed-to-one)",
+                "prop_amp(dialed-to-two)",
+                "prop_amp(dialed-to-three)",
+                "prop_amp(dialed-to-four)",
+                "prop_amp(dialed-to-five)",
+                "prop_amp(dialed-to-six)",
+                "prop_amp(dialed-to-seven)",
+                "prop_amp(dialed-to-eight)",
+                "prop_amp(dialed-to-nine)",
+                "prop_amp(dialed-to-ten)",
+                "prop_amp(dialed-to-eleven)"
+            ]
+        },
+        "flag_type": {
+            "enum": [
+                "flag_win"
+                
+            ]
+        }
+    }
+}

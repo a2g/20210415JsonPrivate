@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "description": "a list of specific objects that gets references from mansion.gates.schema.json",
+    "type": "object",
+    "definitions": {
+        "char_type": {
+            "enum": [
+                "char_army_kid"
+            ]
+        },
+        "inv_type": {
+            "enum": [
+                "inv_harness",
+                "inv_static_rope"
+            ]
+        },
+        "prop_type": {
+            "enum": [
+                "prop_harness",
+                "prop_static_rope",
+                "prop_rope_tied_to_pipe",
+                "prop_exposed_pipe",
+                "balcony_door(closed)",
+                "balcony_door(open)"
+            ]
+        },
+        "flag_type": {
+            "enum": [
+                "flag_win"
+            ]
+        }
+    }
+}

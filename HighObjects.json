@@ -7,9 +7,11 @@
             "enum": [
                 "char_sports_kid",
                 "char_music_kid",
-                "char_prefect",
                 "char_army_kid",
-                "char_science_kid"
+                "char_science_kid",
+                
+                "char_prefect",
+                "char_goth_kid"
 
             ]
         },

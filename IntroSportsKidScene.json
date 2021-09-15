@@ -3,7 +3,7 @@
     "reactions": [
 
         {
-            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
+            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_real_basketball",
             "prop1": "prop_three_point_line",
             "flag1": "flag_win"
@@ -33,9 +33,15 @@
         },
         {
             "prop": "prop_real_basketball"
+        },
+        {
+            "prop":"prop_three_point_line"
+        },
+        {
+            "prop":"prop_free_throw_line"
         }
     ],
     "startingThings": [
-     
+        
     ]
 }

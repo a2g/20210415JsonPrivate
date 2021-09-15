@@ -3,7 +3,7 @@
     "reactions": [
 
         {
-            "script": "INV1_WITH_INV2_SETS_FLAG1_KEPT_ALL",
+            "script": "FLAG1_SET_BY_USING_INV1_WITH_INV2",
             "inv1": "inv_spell_book",
             "inv2": "inv_urn_of_ashes",
             "flag1": "flag_win"

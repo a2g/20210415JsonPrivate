@@ -2,54 +2,57 @@
     "$schema": "./AllSchema.json",
     "levels": [
         {
-            "name" : "music-kid",
-            "files": [
-                "IntroMusicKidScene.json"
-            ],
-            "unlocksGlobalCharacter": "char_music_kid",
-            "prerequisiteType": "allOf",
-            "prerequisiteArray": []
-        },
-        {
-            "name" : "sports-kid",
-            "files": [
-                "IntroSportsKidScene.json"
-            ],
-            "unlocksGlobalCharacter": "char_sports_kid",
-            "prerequisiteType": "allOf",
-            "prerequisiteArray": []
-        },
+            "displayName" : "music-kid",
+            "mainFile": "IntroMusicKidScene.json",
+            "flagSetUponCompletion": "gflag_music_kid_freed", 
 
-        {
-            "name" : "army-kid",
-            "files": [
-                "IntroArmyKidScene.json"
-            ],
-            "unlocksGlobalCharacter": "char_army_kid",
-            "prerequisiteType": "allOf",
-            "prerequisiteArray": []
+
+            "extraFiles": [],
+            "prerequisiteType": "allRequired",
+            "prerequisiteFlags": []
         },
         {
-            "name" : "goth-kid",
-            "files": [
-                "IntroGothKidScene.json"
-            ],
-            "unlocksGlobalCharacter": "char_goth_kid",
-            "prerequisiteType": "allOf",
-            "prerequisiteArray": []
+            "displayName" : "sports-kid",
+            "mainFile": "IntroSportsKidScene.json",
+            "flagSetUponCompletion": "gflag_sports_kid_freed" , 
+
+
+            "extraFiles": [],
+            "prerequisiteType": "allRequired",
+            "prerequisiteFlags": []
         },
         {
-            "name" : "high-school",
-            "files": [
-                "HighScene.json",
-                "HospScene.json"
-            ],
-            "unlocksGlobalCharacter": "",
-            "prerequisiteType": "threeOf",
-            "prerequisiteArray": [
-                "char_goth_kid",
-                "char_army_kid",
-                "char_music_kid"
+            "displayName" : "army-kid",
+            "mainFile": "IntroArmyKidScene.json",
+            "flagSetUponCompletion": "gflag_army_kid_freed" , 
+
+
+            "extraFiles": [],
+            "prerequisiteType": "allRequired",
+            "prerequisiteFlags": []
+        },
+        {
+            "displayName" : "goth-kid",
+            "mainFile": "IntroGothKidScene.json",
+            "flagSetUponCompletion": "gflag_goth_kid_freed" , 
+
+
+            "extraFiles": [],
+            "prerequisiteType": "allRequired",
+            "prerequisiteFlags": []
+        },
+        {
+            "displayName" : "high school (part one)",
+            "mainFile" : "HighScene.json",
+            "extraFiles": ["HospScene.json"],
+            "flagSetUponCompletion": "gflag_missing_kid_found",
+            "prerequisiteType": "threeRequired",
+            "prerequisiteFlags": [
+                "gflag_music_kid_freed",
+                "gflag_army_kid_freed",
+                "gflag_goth_kid_freed",
+                "gflag_sports_kid_freed",
+                "gflag_prefect_freed"
             ]
         }
     ]

@@ -15,17 +15,17 @@
                 "gflag_game_complete"
             ]
         },
-        "prerequisite_type": {
+        "condition_type": {
             "enum": [
-                "allRequired",
-                "oneRequired",
-                "twoRequired",
-                "threeRequired"
+                "allOfThem",
+                "oneOrMore",
+                "twoOrMore",
+                "threeOrMore"
             ],
-            "allRequired": "allRequired",
-            "oneRequired": "oneRequired",
-            "twoRequired": "twoRequired",
-            "threeRequired": "threeRequired"
+            "allOfThem": "allOfThem",
+            "oneOrMore": "oneOrMore",
+            "twoOrMore": "twoOrMore",
+            "threeOrMore": "threeOrMore"
         },
         "level_type": {
             "type": "object",
@@ -35,6 +35,8 @@
                 "flagSetUponCompletion",
                 "prerequisiteFlags",
                 "prerequisiteType",
+                "sunsetFlags",
+                "sunsetType",
                 "extraFiles"
             ],
             "dependentRequired": {
@@ -43,6 +45,12 @@
                 ],
                 "prerequisiteFlags": [
                     "prerequisiteType"
+                ],
+                "sunsetType": [
+                    "sunsetFlags"
+                ],
+                "sunsetFlags": [
+                    "sunsetType"
                 ]
             },
             "properties": {
@@ -63,9 +71,19 @@
                     "$ref": "#/definitions/gflag_type"
                 },
                 "prerequisiteType": {
-                    "$ref": "#/definitions/prerequisite_type"
+                    "$ref": "#/definitions/condition_type"
                 },
                 "prerequisiteFlags": {
+                    "type": "array",
+                    "minItems": 0,
+                    "items": {
+                        "$ref": "#/definitions/gflag_type"
+                    }
+                },
+                "sunsetType": {
+                    "$ref": "#/definitions/condition_type"
+                },
+                "sunsetFlags": {
                     "type": "array",
                     "minItems": 0,
                     "items": {

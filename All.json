@@ -5,40 +5,68 @@
             "displayName" : "music-kid",
             "mainFile": "IntroMusicKidScene.json",
             "flagSetUponCompletion": "gflag_music_kid_freed", 
-
+            "sunsetType": "threeOrMore",
+            "sunsetFlags": [
+                "gflag_music_kid_freed",
+                "gflag_army_kid_freed",
+                "gflag_goth_kid_freed",
+                "gflag_sports_kid_freed",
+                "gflag_prefect_freed"
+            ],
 
             "extraFiles": [],
-            "prerequisiteType": "allRequired",
+            "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
             "displayName" : "sports-kid",
             "mainFile": "IntroSportsKidScene.json",
             "flagSetUponCompletion": "gflag_sports_kid_freed" , 
-
+            "sunsetType": "threeOrMore",
+            "sunsetFlags": [
+                "gflag_music_kid_freed",
+                "gflag_army_kid_freed",
+                "gflag_goth_kid_freed",
+                "gflag_sports_kid_freed",
+                "gflag_prefect_freed"
+            ],
 
             "extraFiles": [],
-            "prerequisiteType": "allRequired",
+            "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
             "displayName" : "army-kid",
             "mainFile": "IntroArmyKidScene.json",
             "flagSetUponCompletion": "gflag_army_kid_freed" , 
-
+            "sunsetType": "threeOrMore",
+            "sunsetFlags": [
+                "gflag_music_kid_freed",
+                "gflag_army_kid_freed",
+                "gflag_goth_kid_freed",
+                "gflag_sports_kid_freed",
+                "gflag_prefect_freed"
+            ],
 
             "extraFiles": [],
-            "prerequisiteType": "allRequired",
+            "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
             "displayName" : "goth-kid",
             "mainFile": "IntroGothKidScene.json",
             "flagSetUponCompletion": "gflag_goth_kid_freed" , 
-
+            "sunsetType": "threeOrMore",
+            "sunsetFlags": [
+                "gflag_music_kid_freed",
+                "gflag_army_kid_freed",
+                "gflag_goth_kid_freed",
+                "gflag_sports_kid_freed",
+                "gflag_prefect_freed"
+            ],
 
             "extraFiles": [],
-            "prerequisiteType": "allRequired",
+            "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
@@ -46,14 +74,16 @@
             "mainFile" : "HighScene.json",
             "extraFiles": ["HospScene.json"],
             "flagSetUponCompletion": "gflag_missing_kid_found",
-            "prerequisiteType": "threeRequired",
+            "prerequisiteType": "threeOrMore",
             "prerequisiteFlags": [
                 "gflag_music_kid_freed",
                 "gflag_army_kid_freed",
                 "gflag_goth_kid_freed",
                 "gflag_sports_kid_freed",
                 "gflag_prefect_freed"
-            ]
+            ],
+            "sunsetType": "threeOrMore",
+            "sunsetFlags": []
         }
     ]
 }

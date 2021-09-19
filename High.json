@@ -14,7 +14,7 @@
             "flag2" : "flag_death_by_slamdunk"
         },
         {
-            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
+            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_inflated_ball",
             "prop1": "prop_lowered_backboard",
             "flag1": "flag_death_by_slamdunk"
@@ -109,13 +109,13 @@
             "inv3": "inv_single_coil_pickup"
         },
         {
-            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
+            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_eletro-accoustic_guitar",
             "prop1": "prop_plugged_in_amp",
             "flag1": "flag_death_by_guitar"
         },
         {
-            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
+            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_confiscated_guitar",
             "prop1": "prop_plugged_in_amp",
             "flag1": "flag_death_by_guitar"

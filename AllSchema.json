@@ -27,6 +27,37 @@
             "twoOrMore": "twoOrMore",
             "threeOrMore": "threeOrMore"
         },
+        "extra_condition_type": {
+            "enum": [
+                "allOfThem",
+                "oneOrMore",
+                "twoOrMore",
+                "threeOrMore",
+                "unconditional"
+            ],
+            "unconditional" : "unconditional",
+            "allOfThem": "allOfThem",
+            "oneOrMore": "oneOrMore",
+            "twoOrMore": "twoOrMore",
+            "threeOrMore": "threeOrMore"
+        },
+        "extra_type": {
+            "properties": {
+                "file": {
+                    "type": "string"
+                },
+                "conditionType": {
+                    "$ref": "#/definitions/extra_condition_type"
+                },
+                "conditionFlags": {
+                    "type": "array",
+                    "minItems": 0,
+                    "items": {
+                        "$ref": "#/definitions/gflag_type"
+                    }
+                }
+            }
+        },
         "level_type": {
             "type": "object",
             "required": [
@@ -64,7 +95,7 @@
                     "type": "array",
                     "minItems": 0,
                     "items": {
-                        "type": "string"
+                        "$ref": "#/definitions/extra_type"
                     }
                 },
                 "flagSetUponCompletion": {

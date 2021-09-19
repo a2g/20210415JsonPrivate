@@ -2,9 +2,9 @@
     "$schema": "./AllSchema.json",
     "levels": [
         {
-            "displayName" : "music-kid",
+            "displayName": "music-kid",
             "mainFile": "IntroMusicKidScene.json",
-            "flagSetUponCompletion": "gflag_music_kid_freed", 
+            "flagSetUponCompletion": "gflag_music_kid_freed",
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
                 "gflag_music_kid_freed",
@@ -13,15 +13,14 @@
                 "gflag_sports_kid_freed",
                 "gflag_prefect_freed"
             ],
-
             "extraFiles": [],
             "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "sports-kid",
+            "displayName": "sports-kid",
             "mainFile": "IntroSportsKidScene.json",
-            "flagSetUponCompletion": "gflag_sports_kid_freed" , 
+            "flagSetUponCompletion": "gflag_sports_kid_freed",
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
                 "gflag_music_kid_freed",
@@ -30,15 +29,14 @@
                 "gflag_sports_kid_freed",
                 "gflag_prefect_freed"
             ],
-
             "extraFiles": [],
             "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "army-kid",
+            "displayName": "army-kid",
             "mainFile": "IntroArmyKidScene.json",
-            "flagSetUponCompletion": "gflag_army_kid_freed" , 
+            "flagSetUponCompletion": "gflag_army_kid_freed",
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
                 "gflag_music_kid_freed",
@@ -47,15 +45,14 @@
                 "gflag_sports_kid_freed",
                 "gflag_prefect_freed"
             ],
-
             "extraFiles": [],
             "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "goth-kid",
+            "displayName": "goth-kid",
             "mainFile": "IntroGothKidScene.json",
-            "flagSetUponCompletion": "gflag_goth_kid_freed" , 
+            "flagSetUponCompletion": "gflag_goth_kid_freed",
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
                 "gflag_music_kid_freed",
@@ -64,16 +61,12 @@
                 "gflag_sports_kid_freed",
                 "gflag_prefect_freed"
             ],
-
             "extraFiles": [],
             "prerequisiteType": "allOfThem",
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "high school (part one)",
-            "mainFile" : "HighScene.json",
-            "extraFiles": ["HospScene.json"],
-            "flagSetUponCompletion": "gflag_missing_kid_found",
+            "displayName": "HighSchool",
             "prerequisiteType": "threeOrMore",
             "prerequisiteFlags": [
                 "gflag_music_kid_freed",
@@ -83,7 +76,31 @@
                 "gflag_prefect_freed"
             ],
             "sunsetType": "threeOrMore",
-            "sunsetFlags": []
+            "sunsetFlags": [],
+            "mainFile": "HighScene.json",
+            "extraFiles": [
+                {
+                    "file": "HospScene.json",
+                    "conditionType": "unconditional",
+                    "conditionFlags": []
+                },
+                {
+                    "file": "TimmyInSportsStoreroom.json",
+                    "conditionType": "threeOrMore",
+                    "conditionFlags": ["gflag_sports_kid_freed"]
+                },
+                {
+                    "file": "TimmyInStaffCommonRoom.json",
+                    "conditionType": "threeOrMore",
+                    "conditionFlags": ["gflag_sports_kid_freed"]
+                },
+                {
+                    "file": "TimmyInBombShelter.json",
+                    "conditionType": "threeOrMore",
+                    "conditionFlags": ["gflag_sports_kid_freed"]
+                }
+            ],
+            "flagSetUponCompletion": "gflag_missing_kid_found",
         }
     ]
 }

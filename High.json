@@ -1,12 +1,10 @@
 {
     "$schema": "./HighSchema.json",
     "reactions": [
- 
         {
             "script": "AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_win",
             "flag2": "flag_death_by_guitar"
-           
         },
         {
             "script":"AUTO_FLAG1_SET_BY_FLAG2",
@@ -193,6 +191,17 @@
         {
             "char": "char_music_kid",
             "thing": "flag_musicroom_access"
+        }
+    ],
+    "additives" : [
+
+        {
+          "trigger_flag" : "flag_win_timmy_sports_storeroom",
+          "fileToMerge" : "TimmyInSportsStoreRoom.json"
+        },
+        {
+            "trigger_flag" : "flag_win_timmy_sports_storeroom",
+            "fileToMerge" : "blah.json"
         }
     ]
 }

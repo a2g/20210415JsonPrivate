@@ -1,0 +1,26 @@
+{
+    "$schema": "./TimmyInSportsStoreroomSchema.json",
+    "reactions": [
+        {
+            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "inv1": "inv_sports_storeroom_key",
+            "prop1": "prop_sports_storeroom_door",
+            "flag1": "flag_win"
+        },
+        {
+            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_spell_book",
+            "inv1": "inv_spell_book"
+        },
+        {
+            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_scraper",
+            "inv1": "inv_scraper"
+        },
+        {
+            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_urn_of_ashes",
+            "inv1": "inv_urn_of_ashes"
+        }
+    ]
+}

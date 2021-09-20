@@ -3,7 +3,7 @@
     "levels": [
         {
             "displayName" : "music-kid",
-            "mainFile": "IntroMusicKidScene.json",
+            "mainFile": "IntroMusicKid.json",
             "flagSetUponCompletion": "gflag_music_kid_freed", 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -20,7 +20,7 @@
         },
         {
             "displayName" : "sports-kid",
-            "mainFile": "IntroSportsKidScene.json",
+            "mainFile": "IntroSportsKid.json",
             "flagSetUponCompletion": "gflag_sports_kid_freed" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -37,7 +37,7 @@
         },
         {
             "displayName" : "army-kid",
-            "mainFile": "IntroArmyKidScene.json",
+            "mainFile": "IntroArmyKid.json",
             "flagSetUponCompletion": "gflag_army_kid_freed" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -54,7 +54,7 @@
         },
         {
             "displayName" : "goth-kid",
-            "mainFile": "IntroGothKidScene.json",
+            "mainFile": "IntroGothKid.json",
             "flagSetUponCompletion": "gflag_goth_kid_freed" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -71,8 +71,8 @@
         },
         {
             "displayName" : "high school (part one)",
-            "mainFile" : "HighScene.json",
-            "extraFiles": ["HospScene.json"],
+            "mainFile" : "High.json",
+            "extraFiles": ["Hosp.json"],
             "flagSetUponCompletion": "gflag_missing_kid_found",
             "prerequisiteType": "threeOrMore",
             "prerequisiteFlags": [

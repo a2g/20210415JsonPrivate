@@ -1,10 +1,12 @@
 {
     "$schema": "./HighSchema.json",
     "reactions": [
+ 
         {
             "script": "AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_win",
             "flag2": "flag_death_by_guitar"
+           
         },
         {
             "script":"AUTO_FLAG1_SET_BY_FLAG2",
@@ -12,7 +14,7 @@
             "flag2" : "flag_death_by_slamdunk"
         },
         {
-            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
             "inv1": "inv_inflated_ball",
             "prop1": "prop_lowered_backboard",
             "flag1": "flag_death_by_slamdunk"
@@ -107,13 +109,13 @@
             "inv3": "inv_single_coil_pickup"
         },
         {
-            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
             "inv1": "inv_eletro-accoustic_guitar",
             "prop1": "prop_plugged_in_amp",
             "flag1": "flag_death_by_guitar"
         },
         {
-            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "script": "INV1_WITH_PROP1_SETS_FLAG1_KEPT_ALL",
             "inv1": "inv_confiscated_guitar",
             "prop1": "prop_plugged_in_amp",
             "flag1": "flag_death_by_guitar"
@@ -141,6 +143,7 @@
             "inv1": "inv_broken_amp"
         }
     ],
+
     "startingThings": [
         {
             "char": "char_sports_kid",
@@ -189,17 +192,6 @@
         },
         {
             "thing": "prop_accordian"
-        }
-    ],
-    "additives" : [
-
-        {
-          "trigger_flag" : "flag_win_timmy_sports_storeroom",
-          "fileToMerge" : "TimmyInSportsStoreRoom.json"
-        },
-        {
-            "trigger_flag" : "flag_win_timmy_sports_storeroom",
-            "fileToMerge" : "blah.json"
         }
     ]
 }

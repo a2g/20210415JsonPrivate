@@ -34,22 +34,21 @@
             "prop1": "balcony_door(open)"
         }
     ],
-    "startingProps": [
+    "startingThings": [
         {
-            "prop": "balcony_door(closed)"
+            "thing": "balcony_door(closed)"
         },
         {
-            "prop": "prop_static_rope"
+            "thing": "prop_static_rope"
         },
         {
-            "prop": "prop_harness"
+            "thing": "prop_harness"
         },
         {
-            "prop": "prop_exposed_pipe"
+            "thing": "prop_exposed_pipe"
         },
         {
-            "prop": "balcony_door(closed)"
+            "thing": "balcony_door(closed)"
         }
-    ],
-    "startingThings": []
+    ] 
 }

@@ -33,7 +33,8 @@
                 "inv_inflating_needle",
                 "inv_pump_with_bike_adapter",
                 "inv_pump_with_needle_adapter",
-                "inv_accordian_with_needle_adapter"
+                "inv_accordian_with_needle_adapter",
+                "inv_sports_storeroom_key"
             ]
         },
         "prop_type": {
@@ -53,7 +54,10 @@
                 "prop_pump_with_bike_adapter",
                 "prop_inflating_needle",
                 "prop_pole_hook",
-                "prop_accordian"
+                "prop_accordian",
+
+                "prop_sports_storeroom_door",
+                "prop_sports_storeroom_key"
             ]
         },
         "flag_type": {
@@ -62,8 +66,8 @@
                 "flag_death_by_guitar",
                 "flag_death_by_slamdunk",
                 "flag_ability_to_play_guitar",
-                "flag_sports_storeroom_access",
-                "flag_musicroom_access"
+                "flag_musicroom_access",
+                "flag_chapter_timmy_sports"
             ]
         }
     }

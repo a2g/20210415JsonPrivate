@@ -6,14 +6,17 @@
     "definitions": {
         "char_type": {
             "enum": [
-                "char_science_kid"
+                "char_science_kid",
+                "char_goth_kid"
             ]
         },
         "inv_type": {
             "enum": [
                 "inv_jar_of_protons",
                 "inv_tube_carrier",
-                "inv_box_of_electromagnets"
+                "inv_box_of_electromagnets",
+                "inv_scraper",
+                "inv_urn_of_ashes"
             ]
         },
         "prop_type": {
@@ -50,18 +53,19 @@
                 "prop_attached_electromagnet5",
                 "prop_plugged_in_electromagnet5",
                 "prop_switched_on_electromagnet5",
-                "prop_vacuum_tube",
-                "prop_slightly_accelerated_vacuum_tube",
-                "prop_mildly_accelerated_vacuum_tube",
-                "prop_moderately_accelerated_vacuum_tube",
-                "prop_partly_accelerated_vacuum_tube",
-                "prop_fully_accelerated_vacuum_tube"
+                "prop_EasyTube™",
+                "prop_slightly_accelerated_EasyTube™",
+                "prop_mildly_accelerated_EasyTube™",
+                "prop_moderately_accelerated_EasyTube™",
+                "prop_partly_accelerated_EasyTube™",
+                "prop_fully_accelerated_EasyTube™"
             ]
         },
         "flag_type": {
             "enum": [
                 "flag_win",
-                "flag_death_by_physics"
+                "flag_death_by_physics",
+                "flag_death_by_goth"
             ]
         }
     }

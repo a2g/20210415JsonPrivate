@@ -12,37 +12,37 @@
             ],
             "properties": {
                 "flag1": {
-                    "$ref": "HospObjects.json#/definitions/flag_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/flag_type"
                 },
                 "flag2": {
-                    "$ref": "HospObjects.json#/definitions/flag_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/flag_type"
                 },
                 "inv1": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "HospObjects.json#/definitions/inv_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
                 },
                 "prop1": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                 },
                 "prop2": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                 },
                 "prop3": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                 },
                 "prop4": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                 },
                 "prop5": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                 },
                 "prop6": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                 },
                 "restrictions": {
                     "type": "array",
@@ -58,7 +58,7 @@
             "required": [ "char" ],
             "properties": {
                 "char": {
-                    "$ref": "HospObjects.json#/definitions/char_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/char_type"
                 }
             }
         },
@@ -67,7 +67,7 @@
             "required": [ "prop" ],
             "properties": {
                 "prop": {
-                    "$ref": "HospObjects.json#/definitions/prop_type"
+                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                 }
             }
         }
@@ -80,18 +80,18 @@
                 "type": "object",
                 "properties": {
                     "char": {
-                        "$ref": "HospObjects.json#/definitions/char_type"
+                        "$ref": "AshesAndCyclotronObjects.json#/definitions/char_type"
                     },
                     "thing": {
                         "oneOf": [
                             {
-                                "$ref": "HospObjects.json#/definitions/inv_type"
+                                "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
                             },
                             {
-                                "$ref": "HospObjects.json#/definitions/flag_type"
+                                "$ref": "AshesAndCyclotronObjects.json#/definitions/flag_type"
                             },
                             {
-                                "$ref": "HospObjects.json#/definitions/prop_type"
+                                "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
                             }
                         ]
                     }

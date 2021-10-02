@@ -1,5 +1,5 @@
 {
-    "$schema": "./HospSchema.json",
+    "$schema": "./AshesAndCyclotronSchema.json",
     "reactions": [
         {
             "script": "AUTO_FLAG1_SET_BY_FLAG2",
@@ -10,9 +10,9 @@
             "script": "FLAG1_SET_BY_LOSING_INV1_USED_WITH_PROP1_AND_PROPS",
             "flag1": "flag_death_by_physics",
             "inv1": "inv_jar_of_protons",
-            "prop1": "prop_fully_accelerated_vacuum_tube",
-            "prop2" : "prop_topology_button(ring_mode)",
-            "prop3" : "prop_destination_switch(test_run)"
+            "prop1" : "prop_fully_accelerated_EasyTube™",
+            "prop2" : "prop_destination_switch(test_run)",
+            "prop3" : "prop_topology_button(ring_mode)"
         },
         {
             "script": "TOGGLE_PROP1_BECOMES_PROP2",
@@ -101,8 +101,8 @@
         },
         {
             "script": "AUTO_PROP1_BECOMES_PROP2_BY_PROPS",
-            "prop1": "prop_partly_accelerated_vacuum_tube",
-            "prop2": "prop_fully_accelerated_vacuum_tube",
+            "prop1": "prop_partly_accelerated_EasyTube™",
+            "prop2": "prop_fully_accelerated_EasyTube™",
             "prop3": "prop_switched_on_electromagnet1",
             "prop4": "prop_switched_on_electromagnet2",
             "prop5": "prop_switched_on_electromagnet3",
@@ -111,8 +111,8 @@
         },
         {
             "script": "AUTO_PROP1_BECOMES_PROP2_BY_PROPS",
-            "prop1": "prop_moderately_accelerated_vacuum_tube",
-            "prop2": "prop_partly_accelerated_vacuum_tube",
+            "prop1": "prop_moderately_accelerated_EasyTube™",
+            "prop2": "prop_partly_accelerated_EasyTube™",
             "prop3": "prop_switched_on_electromagnet1",
             "prop4": "prop_switched_on_electromagnet2",
             "prop5": "prop_switched_on_electromagnet3",
@@ -120,23 +120,23 @@
         },
         {
             "script": "AUTO_PROP1_BECOMES_PROP2_BY_PROPS",
-            "prop1": "prop_mildly_accelerated_vacuum_tube",
-            "prop2": "prop_moderately_accelerated_vacuum_tube",
+            "prop1": "prop_mildly_accelerated_EasyTube™",
+            "prop2": "prop_moderately_accelerated_EasyTube™",
             "prop3": "prop_switched_on_electromagnet1",
             "prop4": "prop_switched_on_electromagnet2",
             "prop5": "prop_switched_on_electromagnet3"
         },
         {
             "script": "AUTO_PROP1_BECOMES_PROP2_BY_PROPS",
-            "prop1": "prop_slightly_accelerated_vacuum_tube",
-            "prop2": "prop_mildly_accelerated_vacuum_tube",
+            "prop1": "prop_slightly_accelerated_EasyTube™",
+            "prop2": "prop_mildly_accelerated_EasyTube™",
             "prop3": "prop_switched_on_electromagnet1",
             "prop4": "prop_switched_on_electromagnet2"
         },
         {
             "script": "AUTO_PROP1_BECOMES_PROP2_BY_PROPS",
-            "prop1": "prop_vacuum_tube",
-            "prop2": "prop_slightly_accelerated_vacuum_tube",
+            "prop1": "prop_EasyTube™",
+            "prop2": "prop_slightly_accelerated_EasyTube™",
             "prop3": "prop_switched_on_electromagnet1"
         },
         {
@@ -182,6 +182,7 @@
 
     ],
     "startingThings": [
+
         {
             "char": "char_science_kid",
             "thing": "inv_jar_of_protons"
@@ -227,7 +228,7 @@
             "thing": "prop_exposed_vacuum_pipe5"
         },
         {
-            "thing": "prop_vacuum_tube"
+            "thing": "prop_EasyTube™"
         }
     ]
 }

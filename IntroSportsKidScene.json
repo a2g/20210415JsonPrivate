@@ -1,25 +1,25 @@
 {
     "$schema": "./IntroSportsKidSchema.json",
-    "reactions": [
+    "gates": [
 
         {
-            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_real_basketball",
             "prop1": "prop_three_point_line",
             "flag1": "flag_win"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_real_basketball",
             "inv1": "inv_real_basketball"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_foam_basketball",
             "inv1": "inv_foam_basketball"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_soccerball",
             "inv1": "inv_soccerball"
         }

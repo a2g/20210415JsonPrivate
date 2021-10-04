@@ -1,159 +1,159 @@
 {
     "$schema": "./HighSchema.json",
-    "reactions": [
+    "gates": [
         {
-            "script": "AUTO_FLAG1_SET_BY_FLAG2",
+            "gate": "AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_win",
             "flag2": "flag_death_by_guitar"
         },
         {
-            "script":"AUTO_FLAG1_SET_BY_FLAG2",
+            "gate":"AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_win",
             "flag2" : "flag_death_by_slamdunk"
         },
         {
-            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_inflated_ball",
             "prop1": "prop_lowered_backboard",
             "flag1": "flag_death_by_slamdunk"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_pump_with_bike_adapter",
             "inv1": "inv_pump_with_bike_adapter"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_inflating_needle",
             "inv1": "inv_inflating_needle",
             "restrictions": [ { "char": "char_sports_kid" } ]
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_pole_hook",
             "inv1": "inv_pole_hook"
         },
 
         {
-            "script": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
+            "gate": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
             "inv1": "inv_deflated_ball",
             "inv2": "inv_inflated_ball",
             "inv3": "inv_pump_with_needle_adapter"
         },
         {
-            "script": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
+            "gate": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
             "inv1": "inv_deflated_ball",
             "inv2": "inv_inflated_ball",
             "inv3": "inv_accordian_with_needle_adapter"
         },
         {
-            "script": "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
+            "gate": "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
             "prop1": "prop_raised_backboard",
             "prop2": "prop_lowered_backboard",
             "inv1": "inv_pole_hook"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_accordian",
             "inv1": "inv_accordian",
             "restrictions": [ { "char": "char_music_kid" } ]
         },
         {
-            "script": "INV1_BECOMES_INV2_BY_LOSING_INV3",
+            "gate": "INV1_BECOMES_INV2_BY_LOSING_INV3",
             "inv1": "inv_pump_with_bike_adapter",
             "inv2": "inv_pump_with_needle_adapter",
             "inv3": "inv_inflating_needle"
         },
         {
-            "script": "INV1_BECOMES_INV2_BY_LOSING_INV3",
+            "gate": "INV1_BECOMES_INV2_BY_LOSING_INV3",
             "inv1": "inv_accordian",
             "inv2": "inv_accordian_with_needle_adapter",
             "inv3": "inv_inflating_needle"
         },
         {
-            "script": "INV1_BECOMES_INV2_BY_LOSING_INV3",
+            "gate": "INV1_BECOMES_INV2_BY_LOSING_INV3",
             "inv1": "inv_broken_amp",
             "inv2": "inv_fixed_amp",
             "inv3": "inv_radio_tube"
         },
         {
-            "script": "PROP1_BECOMES_PROP2_BY_LOSING_INV1",
+            "gate": "PROP1_BECOMES_PROP2_BY_LOSING_INV1",
             "prop1": "prop_gym_powerpoint",
             "prop2": "prop_plugged_in_amp",
             "inv1": "inv_fixed_amp"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_screwdriver",
             "inv1": "inv_screwdriver"
         },
         {
-            "script": "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1",
+            "gate": "PROP1_BECOMES_PROP2_WHEN_GRAB_INV1",
             "prop1": "prop_opened_radio_with_radio_tube",
             "prop2": "prop_opened_radio",
             "inv1": "inv_radio_tube"
         },
         {
-            "script": "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
+            "gate": "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
             "prop1": "prop_closed_radio",
             "prop2": "prop_opened_radio_with_radio_tube",
             "inv1": "inv_screwdriver"
         },
 
         {
-            "script": "INV1_BECOMES_INV2_BY_LOSING_INV3",
+            "gate": "INV1_BECOMES_INV2_BY_LOSING_INV3",
             "inv1": "inv_accoustic_guitar",
             "inv2": "inv_eletro-accoustic_guitar",
             "inv3": "inv_single_coil_pickup"
         },
         {
-            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_eletro-accoustic_guitar",
             "prop1": "prop_plugged_in_amp",
             "flag1": "flag_death_by_guitar"
         },
         {
-            "script": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_confiscated_guitar",
             "prop1": "prop_plugged_in_amp",
             "flag1": "flag_death_by_guitar"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_confiscated_guitar",
             "inv1": "inv_confiscated_guitar",
             "restrictions": [ { "char": "char_prefect" } ]
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_single_coil_pickup",
             "inv1": "inv_single_coil_pickup",
             "restrictions": [ { "char": "char_music_kid" } ]
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_accoustic_guitar",
             "inv1": "inv_accoustic_guitar"
         },
         {
-            "script": "PROP1_GOES_WHEN_GRAB_INV1",
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
             "prop1": "prop_broken_amp",
             "inv1": "inv_broken_amp"
         },
         {
-            "script" : "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "gate" : "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_sports_storeroom_key",
             "prop1": "prop_sports_storeroom_key",
             "flag1" :"flag_chapter_timmy_sports"
         },
         {
-            "script" :"AUTO_FLAG1_SET_BY_FLAG2",
+            "gate" :"AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_win",
             "flag2": "flag_chapter_timmy_sports"
         }
         ,
         {
-            "script" : "AUTO_FLAG1_CAUSES_IMPORT_OF_JSON",
+            "gate" : "AUTO_FLAG1_CAUSES_IMPORT_OF_JSON",
             "flag1" : "flag_chapter_timmy_sports",
              "fileToMerge" : "TimmyInSportsStoreRoom.json"
         }

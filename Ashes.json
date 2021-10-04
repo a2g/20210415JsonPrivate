@@ -1,13 +1,13 @@
 {
     "$schema": "./AshesAndCyclotronSchema.json",
-    "reactions": [
+    "gates": [
         {
-            "script": "AUTO_FLAG1_SET_BY_FLAG2",
+            "gate": "AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_win",
             "flag2": "flag_death_by_goth"
         },
         {
-            "script": "FLAG1_SET_BY_LOSING_INV1_USED_WITH_PROP1_AND_PROPS",
+            "gate": "FLAG1_SET_BY_LOSING_INV1_USED_WITH_PROP1_AND_PROPS",
             "flag1": "flag_death_by_goth",
             "inv1": "inv_urn_of_ashes",
             "prop1" : "prop_EasyTube™",
@@ -15,42 +15,42 @@
             "prop3" : "prop_destination_switch(test_run)"
         },
         {
-            "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
+            "gate": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1": "prop_topology_button(ring_mode)",
             "prop2": "prop_topology_button(star_mode)"
         },
         {
-            "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
+            "gate": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1": "prop_topology_button(star_mode)",
             "prop2": "prop_topology_button(ring_mode)"
         },
         {
-            "script": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
+            "gate": "TOGGLE_PROP1_CHANGES_STATE_TO_PROP2",
             "prop1": "prop_topology_button(star_mode)",
             "prop2": "prop_topology_button(ring_mode)"
         },
         {
-            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "gate": "TOGGLE_PROP1_BECOMES_PROP2",
             "prop1":"prop_destination_switch(test_run)",
             "prop2":"prop_destination_switch(maths_and_science)"
         },
         {
-            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "gate": "TOGGLE_PROP1_BECOMES_PROP2",
             "prop1":"prop_destination_switch(maths_and_science)",
             "prop2":"prop_destination_switch(humanities)"
         },
         {
-            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "gate": "TOGGLE_PROP1_BECOMES_PROP2",
             "prop1":"prop_destination_switch(humanities)",
             "prop2":"prop_destination_switch(sportsfield)"
         },
         {
-            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "gate": "TOGGLE_PROP1_BECOMES_PROP2",
             "prop1":"prop_destination_switch(sportsfield)",
             "prop2":"prop_destination_switch(languages)"
         },
         {
-            "script": "TOGGLE_PROP1_BECOMES_PROP2",
+            "gate": "TOGGLE_PROP1_BECOMES_PROP2",
             "prop1":"prop_destination_switch(languages)",
             "prop2":"prop_destination_switch(test_run)"
         }

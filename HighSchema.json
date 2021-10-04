@@ -7,7 +7,7 @@
             "type": "object",
             "allOf": [
                 {
-                    "$ref": "Script/Script.json#/definitions/script_type"
+                    "$ref": "Gate/Gate.json#/definitions/gate_type"
                 }
             ],
             "properties": {
@@ -102,7 +102,7 @@
             }
         },
 
-        "reactions": {
+        "gates": {
             "type": "array",
             "minItems": 1,
             "items": {

@@ -71,6 +71,9 @@
     ],
     "startingThings": [
         {
+            "thing" : "prop_guitar"
+        },
+        {
             "thing": "prop_amp(off)"
         },
         {

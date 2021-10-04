@@ -25,18 +25,18 @@
         },
         {
             "gate": "TOGGLE_PROP1_BECOMES_PROP2",
-            "prop1": "balcony_door(closed)",
-            "prop2": "balcony_door(open)"
+            "prop1": "prop_balcony_door(closed)",
+            "prop2": "prop_balcony_door(open)"
         },
         {
             "gate": "TOGGLE_PROP1_BECOMES_PROP2",
-            "prop2": "balcony_door(closed)",
-            "prop1": "balcony_door(open)"
+            "prop2": "prop_balcony_door(closed)",
+            "prop1": "prop_balcony_door(open)"
         }
     ],
     "startingThings": [
         {
-            "thing": "balcony_door(closed)"
+            "thing": "prop_balcony_door(closed)"
         },
         {
             "thing": "prop_static_rope"
@@ -48,7 +48,7 @@
             "thing": "prop_exposed_pipe"
         },
         {
-            "thing": "balcony_door(closed)"
+            "thing": "prop_balcony_door(closed)"
         }
     ] 
 }

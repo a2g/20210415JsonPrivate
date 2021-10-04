@@ -20,8 +20,8 @@
                 "prop_static_rope",
                 "prop_rope_tied_to_pipe",
                 "prop_exposed_pipe",
-                "balcony_door(closed)",
-                "balcony_door(open)"
+                "prop_balcony_door(closed)",
+                "prop_balcony_door(open)"
             ]
         },
         "flag_type": {

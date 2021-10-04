@@ -151,6 +151,12 @@
             "flag1": "flag_win",
             "flag2": "flag_chapter_timmy_sports"
         }
+        ,
+        {
+            "script" : "AUTO_FLAG1_CAUSES_IMPORT_OF_JSON",
+            "flag1" : "flag_chapter_timmy_sports",
+             "fileToMerge" : "TimmyInSportsStoreRoom.json"
+        }
     ],
     "startingThings": [
       
@@ -197,17 +203,6 @@
         },
         {
             "thing": "prop_accordian"
-        }
-    ],
-    "additives" : [
-
-        {
-          "trigger_flag" : "flag_win_timmy_sports_storeroom",
-          "fileToMerge" : "TimmyInSportsStoreRoom.json"
-        },
-        {
-            "trigger_flag" : "flag_win_timmy_sports_storeroom",
-            "fileToMerge" : "blah.json"
         }
     ]
 }

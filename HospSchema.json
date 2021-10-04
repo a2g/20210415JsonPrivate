@@ -12,37 +12,37 @@
             ],
             "properties": {
                 "flag1": {
-                    "$ref": "HighObjects.json#/definitions/flag_type"
+                    "$ref": "HospObjects.json#/definitions/flag_type"
                 },
                 "flag2": {
-                    "$ref": "HighObjects.json#/definitions/flag_type"
+                    "$ref": "HospObjects.json#/definitions/flag_type"
                 },
                 "inv1": {
-                    "$ref": "HighObjects.json#/definitions/inv_type"
+                    "$ref": "HospObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "HighObjects.json#/definitions/inv_type"
+                    "$ref": "HospObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "HighObjects.json#/definitions/inv_type"
+                    "$ref": "HospObjects.json#/definitions/inv_type"
                 },
                 "prop1": {
-                    "$ref": "HighObjects.json#/definitions/prop_type"
+                    "$ref": "HospObjects.json#/definitions/prop_type"
                 },
                 "prop2": {
-                    "$ref": "HighObjects.json#/definitions/prop_type"
+                    "$ref": "HospObjects.json#/definitions/prop_type"
                 },
                 "prop3": {
-                    "$ref": "HighObjects.json#/definitions/prop_type"
+                    "$ref": "HospObjects.json#/definitions/prop_type"
                 },
                 "prop4": {
-                    "$ref": "HighObjects.json#/definitions/prop_type"
+                    "$ref": "HospObjects.json#/definitions/prop_type"
                 },
                 "prop5": {
-                    "$ref": "HighObjects.json#/definitions/prop_type"
+                    "$ref": "HospObjects.json#/definitions/prop_type"
                 },
                 "prop6": {
-                    "$ref": "HighObjects.json#/definitions/prop_type"
+                    "$ref": "HospObjects.json#/definitions/prop_type"
                 },
                 "fileToMerge": {
                     "type" : "string"
@@ -61,7 +61,7 @@
             "required": [ "char" ],
             "properties": {
                 "char": {
-                    "$ref": "HighObjects.json#/definitions/char_type"
+                    "$ref": "HospObjects.json#/definitions/char_type"
                 }
             }
         },
@@ -70,7 +70,7 @@
             "required": [ "prop" ],
             "properties": {
                 "prop": {
-                    "$ref": "HighObjects.json#/definitions/prop_type"
+                    "$ref": "HospObjects.json#/definitions/prop_type"
                 }
             }
         }
@@ -83,18 +83,18 @@
                 "type": "object",
                 "properties": {
                     "char": {
-                        "$ref": "HighObjects.json#/definitions/char_type"
+                        "$ref": "HospObjects.json#/definitions/char_type"
                     },
                     "thing": {
                         "oneOf": [
                             {
-                                "$ref": "HighObjects.json#/definitions/inv_type"
+                                "$ref": "HospObjects.json#/definitions/inv_type"
                             },
                             {
-                                "$ref": "HighObjects.json#/definitions/flag_type"
+                                "$ref": "HospObjects.json#/definitions/flag_type"
                             },
                             {
-                                "$ref": "HighObjects.json#/definitions/prop_type"
+                                "$ref": "HospObjects.json#/definitions/prop_type"
                             }
                         ]
                     }

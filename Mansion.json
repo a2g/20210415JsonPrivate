@@ -52,6 +52,9 @@
                 },
                 "prop6": {
                     "$ref": "objects/mansion.objects.schema.json#/definitions/prop_type"
+                },
+                "fileToMerge": {
+                    "type" : "string"
                 }
             },
             "allOf": [

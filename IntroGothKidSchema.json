@@ -44,6 +44,9 @@
                 "prop6": {
                     "$ref": "IntroGothKidObjects.json#/definitions/prop_type"
                 },
+                "fileToMerge": {
+                    "type" : "string"
+                },
                 "restrictions": {
                     "type": "array",
                     "minItems": 1,

@@ -1,8 +1,8 @@
 {
     "$schema": "./AllSchema.json",
-    "levels": [
+    "books": [
         {
-            "displayName" : "music-kid",
+            "bookName" : "music-kid",
             "mainFile": "src/20210415JsonPrivate/IntroMusicKid.json",
             "flagSetUponCompletion": "gflag_music_kid_freed", 
             "sunsetType": "threeOrMore",
@@ -19,7 +19,7 @@
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "sports-kid",
+            "bookName" : "sports-kid",
             "mainFile": "src/20210415JsonPrivate/IntroSportsKid.json",
             "flagSetUponCompletion": "gflag_sports_kid_freed" , 
             "sunsetType": "threeOrMore",
@@ -36,7 +36,7 @@
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "army-kid",
+            "bookName" : "army-kid",
             "mainFile": "src/20210415JsonPrivate/IntroArmyKid.json",
             "flagSetUponCompletion": "gflag_army_kid_freed" , 
             "sunsetType": "threeOrMore",
@@ -53,7 +53,7 @@
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "goth-kid",
+            "bookName" : "goth-kid",
             "mainFile": "src/20210415JsonPrivate/IntroGothKid.json",
             "flagSetUponCompletion": "gflag_goth_kid_freed" , 
             "sunsetType": "threeOrMore",
@@ -70,7 +70,7 @@
             "prerequisiteFlags": []
         },
         {
-            "displayName" : "high school (part one)",
+            "bookName" : "high school (part one)",
             "mainFile" : "src/20210415JsonPrivate/High.json",
             "extraFiles": [
                 "src/20210415JsonPrivate/Cyclotron.json",

@@ -12,37 +12,37 @@
             ],
             "properties": {
                 "flag1": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/flag_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/flag_type"
                 },
                 "flag2": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/flag_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/flag_type"
                 },
                 "inv1": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/inv_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/inv_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/inv_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/inv_type"
                 },
                 "prop1": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                 },
                 "prop2": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                 },
                 "prop3": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                 },
                 "prop4": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                 },
                 "prop5": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                 },
                 "prop6": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                 },
                 "fileToMerge": {
                     "type" : "string"
@@ -61,7 +61,7 @@
             "required": [ "char" ],
             "properties": {
                 "char": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/char_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/char_type"
                 }
             }
         },
@@ -70,7 +70,7 @@
             "required": [ "prop" ],
             "properties": {
                 "prop": {
-                    "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                    "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                 }
             }
         }
@@ -84,18 +84,18 @@
                 "type": "object",
                 "properties": {
                     "char": {
-                        "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/char_type"
+                        "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/char_type"
                     },
                     "thing": {
                         "oneOf": [
                             {
-                                "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/inv_type"
+                                "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/inv_type"
                             },
                             {
-                                "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/flag_type"
+                                "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/flag_type"
                             },
                             {
-                                "$ref": "TimmyInSportsStoreroomObjects.json#/definitions/prop_type"
+                                "$ref": "Chapter2CallTheGroundskeeperObjects.json#/definitions/prop_type"
                             }
                         ]
                     }

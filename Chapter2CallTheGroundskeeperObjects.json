@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "description": "a list of specific objects that gets references from mansion.gates.schema.json",
+    "type": "object",
+    "definitions": {
+        "char_type": {
+            "enum": [
+                "char_goth_kid"
+            ]
+        },
+        "inv_type": {
+            "enum": [
+                "inv_sports_storeroom_key",
+                "inv_empty_bucket",
+                "inv_bucket_full_of_water"
+
+            ]
+        },
+        "prop_type": {
+            "enum": [
+                "prop_sports_storeroom_door",
+                "prop_sports_storeroom_key",
+                "prop_bucket",
+                "prop_precipitation_meter(full)",
+                "prop_precipitation_meter(empty)",
+                "prop_patch_of_ground_with_small_holes",
+                "prop_wet_patch_of_ground",
+                "prop_water_fountains",
+                "prop_water_faucet",
+                "prop_drain"
+            ]
+        },
+        "flag_type": {
+            "enum": [
+                "flag_win",
+                "flag_chapter2_complete",
+                "flag_sensor_too_much_moisture",
+                "flag_sensor_too_much_precipitation"
+
+            ]
+        }
+    }
+}

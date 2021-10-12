@@ -22,7 +22,7 @@
         "flag_type": {
             "enum": [
                 "flag_win",
-                "flag_sub_win_timmy_sportsstoreroom"
+                "flag_chapter1_complete"
             ]
         }
     }

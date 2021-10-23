@@ -74,7 +74,8 @@
             "mainFile" : "src/20210415JsonPrivate/High.json",
             "extraFiles": [
                 "src/20210415JsonPrivate/Cyclotron.json",
-                "src/20210415JsonPrivate/Ashes.json"
+                "src/20210415JsonPrivate/Ashes.json",
+                "src/20210415JsonPrivate/Chapter1FindTimmyInSports.json"
             ],
             "flagSetUponCompletion": "gflag_missing_kid_found",
             "prerequisiteType": "threeOrMore",

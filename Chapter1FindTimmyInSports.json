@@ -2,21 +2,23 @@
     "$schema": "./Chapter1FindTimmyInSportsSchema.json",
     "gates": [
         {
-            "gate" : "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_sports_storeroom_key",
             "prop1": "prop_sports_storeroom_key",
-            "flag1" :"flag_chapter1_complete"
+            "flag1": "flag_chapter1_complete"
         },
         {
-            "gate" :"AUTO_FLAG1_SET_BY_FLAG2",
+            "gate": "AUTO_FLAG1_SET_BY_FLAG2",
             "flag1": "flag_win",
             "flag2": "flag_chapter1_complete"
-        }
-        ,
+        },
         {
-            "gate" : "AUTO_FLAG1_CAUSES_IMPORT_OF_JSON",
-            "flag1" : "flag_chapter1_complete",
-             "fileToMerge" : "Chapter2CallTheGroundskeeper.json"
+            "gate": "AUTO_FLAG1_CAUSES_IMPORT_OF_JSON",
+            "flag1": "flag_chapter1_complete",
+            "fileToMerge": "Chapter2CallTheGroundskeeper.json"
         }
+    ],
+    "startingThings": [
+        
     ]
 }

@@ -1,8 +1,11 @@
 {
     "$schema": "./Chapter1FindTimmyInSportsSchema.json",
+    "sayWhenAddedDynamically": {
+        
+    },
     "gates": [
         {
-            "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+            "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1_LOSE_PROPS",
             "inv1": "inv_sports_storeroom_key",
             "prop1": "prop_sports_storeroom_key",
             "flag1": "flag_chapter1_complete"
@@ -15,7 +18,7 @@
         {
             "gate": "AUTO_FLAG1_CAUSES_IMPORT_OF_JSON",
             "flag1": "flag_chapter1_complete",
-            "fileToMerge": "Chapter2CallTheGroundskeeper.json"
+            "fileToMerge": "./src/20210415JsonPrivate/Chapter2CallTheGroundskeeper.json"
         }
     ],
     "startingThings": [

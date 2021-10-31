@@ -1,17 +1,17 @@
 {
-    "$schema": "./AllSchema.json",
+    "$schema": "./Gate/GateCampaignFramework.json",
     "books": [
         {
             "bookName" : "music-kid",
             "mainFile": "src/20210415JsonPrivate/IntroMusicKid.json",
-            "flagSetUponCompletion": "gflag_music_kid_freed", 
+            "flagSetUponCompletion": "M", 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
-                "gflag_music_kid_freed",
-                "gflag_army_kid_freed",
-                "gflag_goth_kid_freed",
-                "gflag_sports_kid_freed",
-                "gflag_prefect_freed"
+                "M",
+                "A",
+                "G",
+                "B",
+                "P"
             ],
 
             "extraFiles": [],
@@ -19,16 +19,16 @@
             "prerequisiteFlags": []
         },
         {
-            "bookName" : "sports-kid",
-            "mainFile": "src/20210415JsonPrivate/IntroSportsKid.json",
-            "flagSetUponCompletion": "gflag_sports_kid_freed" , 
+            "bookName" : "basketball-kid",
+            "mainFile": "src/20210415JsonPrivate/IntrobasketballKid.json",
+            "flagSetUponCompletion": "B" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
-                "gflag_music_kid_freed",
-                "gflag_army_kid_freed",
-                "gflag_goth_kid_freed",
-                "gflag_sports_kid_freed",
-                "gflag_prefect_freed"
+                "M",
+                "A",
+                "G",
+                "B",
+                "P"
             ],
 
             "extraFiles": [],
@@ -38,14 +38,14 @@
         {
             "bookName" : "army-kid",
             "mainFile": "src/20210415JsonPrivate/IntroArmyKid.json",
-            "flagSetUponCompletion": "gflag_army_kid_freed" , 
+            "flagSetUponCompletion": "A" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
-                "gflag_music_kid_freed",
-                "gflag_army_kid_freed",
-                "gflag_goth_kid_freed",
-                "gflag_sports_kid_freed",
-                "gflag_prefect_freed"
+                "M",
+                "A",
+                "G",
+                "B",
+                "P"
             ],
 
             "extraFiles": [],
@@ -55,14 +55,14 @@
         {
             "bookName" : "goth-kid",
             "mainFile": "src/20210415JsonPrivate/IntroGothKid.json",
-            "flagSetUponCompletion": "gflag_goth_kid_freed" , 
+            "flagSetUponCompletion": "G" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
-                "gflag_music_kid_freed",
-                "gflag_army_kid_freed",
-                "gflag_goth_kid_freed",
-                "gflag_sports_kid_freed",
-                "gflag_prefect_freed"
+                "M",
+                "A",
+                "G",
+                "B",
+                "P"
             ],
 
             "extraFiles": [],
@@ -75,16 +75,16 @@
             "extraFiles": [
                 "src/20210415JsonPrivate/Cyclotron.json",
                 "src/20210415JsonPrivate/Ashes-NoDuplicates.json",
-                "src/20210415JsonPrivate/Chapter1FindTimmyInSports.json"
+                "src/20210415JsonPrivate/Chapter1FindTimmyInbasketball.json"
             ],
-            "flagSetUponCompletion": "gflag_missing_kid_found",
+            "flagSetUponCompletion": "X",
             "prerequisiteType": "threeOrMore",
             "prerequisiteFlags": [
-                "gflag_music_kid_freed",
-                "gflag_army_kid_freed",
-                "gflag_goth_kid_freed",
-                "gflag_sports_kid_freed",
-                "gflag_prefect_freed"
+                "M",
+                "A",
+                "G",
+                "B",
+                "P"
             ],
             "sunsetType": "threeOrMore",
             "sunsetFlags": []

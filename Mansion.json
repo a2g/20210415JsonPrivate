@@ -64,7 +64,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "INV1_AND_INV2_GENERATE_INV",
+                                        "const": "INV1_AND_INV2_GENERATE_INV3",
                                         "description": "eg none yet"
                                     }
                                 }
@@ -72,7 +72,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "INV1_AND_INV2_FORM_AN_INV",
+                                        "const": "INV1_AND_INV2_FORM_AN_INV3",
                                         "description": "not quite the amp fixing - but close"
                                     }
                                 }
@@ -231,7 +231,7 @@
                             {
                                 "properties": {
                                     "type": {
-                                        "const": "TOGGLE_PROP1_BECOMES_PROP2_PROP_BECOMES_PROP",
+                                        "const": "TOGGLE_PROP1_BECOMES_PROP2",
                                         "description": "toggle magged up vacuum tubes"
                                     }
                                 }
@@ -277,7 +277,7 @@
                     "if": {
                         "properties": {
                             "type": {
-                                "const": "INV1_BECOMES_INV2_BY_KEEPING_PROP",
+                                "const": "INV1_BECOMES_INV2_BY_KEEPING_PROP1",
                                 "description": "manuscript b edited via tpewriter"
                             }
                         }
@@ -328,8 +328,8 @@
         "type_type": {
             "enum": [
                 "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
-                "INV1_AND_INV2_FORM_AN_INV",
-                "INV1_AND_INV2_GENERATE_INV",
+                "INV1_AND_INV2_FORM_AN_INV3",
+                "INV1_AND_INV2_GENERATE_INV3",
                 "INV1_BECOMES_INV2_BY_KEEPING_INV3",
                 "INV1_BECOMES_INV2_BY_KEEPING_PROP1",
                 "INV1_BECOMES_INV2_BY_LOSING_INV3",
@@ -348,8 +348,8 @@
         }
     },
     "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE": "HACK_TO_STOP_ALLOW_TS_TO_IMPORT_THIS_FILE",
-    "INV1_AND_INV2_FORM_AN_INV": "INV1_AND_INV2_FORM_AN_INV",
-    "INV1_AND_INV2_GENERATE_INV": "INV1_AND_INV2_GENERATE_INV",
+    "INV1_AND_INV2_FORM_AN_INV3": "INV1_AND_INV2_FORM_AN_INV3",
+    "INV1_AND_INV2_GENERATE_INV3": "INV1_AND_INV2_GENERATE_INV3",
     "INV1_BECOMES_INV2_BY_KEEPING_INV3": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
     "INV1_BECOMES_INV2_BY_KEEPING_PROP1": "INV1_BECOMES_INV2_BY_KEEPING_PROP1",
     "INV1_BECOMES_INV2_BY_LOSING_INV3": "INV1_BECOMES_INV2_BY_LOSING_INV3",

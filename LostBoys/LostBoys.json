@@ -1,0 +1,16 @@
+{
+    "$schema": "./Gate/GateCampaignFramework.json",
+    "books": [
+        {
+            "bookName" : "Michael flying",
+            "mainFile": "src/20210415JsonPrivate/LostBoys/MichaelFlying.json",
+            "flagSetUponCompletion": "A", 
+            "sunsetType": "threeOrMore",
+            "sunsetFlags": [
+            ],
+            "extraFiles": [],
+            "prerequisiteType": "allOfThem",
+            "prerequisiteFlags": []
+        }
+    ]
+}

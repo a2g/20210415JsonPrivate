@@ -20,7 +20,7 @@
         },
         {
             "bookName" : "basketball-kid",
-            "mainFile": "src/20210415JsonPrivate/IntrobasketballKid.json",
+            "mainFile": "src/20210415JsonPrivate/IntroBasketballKid.json",
             "flagSetUponCompletion": "B" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -75,7 +75,7 @@
             "extraFiles": [
                 "src/20210415JsonPrivate/Cyclotron.json",
                 "src/20210415JsonPrivate/Ashes-NoDuplicates.json",
-                "src/20210415JsonPrivate/Chapter1FindTimmyInbasketball.json"
+                "src/20210415JsonPrivate/Chapter1FindTimmyInSports.json"
             ],
             "flagSetUponCompletion": "X",
             "prerequisiteType": "threeOrMore",

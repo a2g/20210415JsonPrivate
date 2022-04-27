@@ -1,5 +1,5 @@
 {
-    "$schema": "./Gate/GateCampaignFramework.json",
+    "$schema": "../Gate/GateCampaignFramework.json",
     "books": [
         {
             "bookName" : "Michael flying",

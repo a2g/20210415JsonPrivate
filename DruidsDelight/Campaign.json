@@ -1,0 +1,16 @@
+{
+    "$schema": "../Gate/GateCampaignFramework.json",
+    "books": [
+        {
+            "bookName" : "Airport",
+            "mainFile": "src/20210415JsonPrivate/DruidsDelight/Dock.json",
+            "flagSetUponCompletion": "A", 
+            "sunsetType": "threeOrMore",
+            "sunsetFlags": [
+            ],
+            "extraFiles": [],
+            "prerequisiteType": "allOfThem",
+            "prerequisiteFlags": []
+        }
+    ]
+}

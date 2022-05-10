@@ -1,9 +1,9 @@
 {
-    "$schema": "./Gate/GateCampaignFramework.json",
+    "$schema": "../Gate/GateCampaignFramework.json",
     "books": [
         {
             "bookName" : "music-kid",
-            "mainFile": "src/20210415JsonPrivate/IntroMusicKid.json",
+            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroMusicKid.json",
             "flagSetUponCompletion": "M", 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -20,7 +20,7 @@
         },
         {
             "bookName" : "basketball-kid",
-            "mainFile": "src/20210415JsonPrivate/IntroBasketballKid.json",
+            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroBasketballKid.json",
             "flagSetUponCompletion": "B" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -37,7 +37,7 @@
         },
         {
             "bookName" : "army-kid",
-            "mainFile": "src/20210415JsonPrivate/IntroArmyKid.json",
+            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroArmyKid.json",
             "flagSetUponCompletion": "A" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -54,7 +54,7 @@
         },
         {
             "bookName" : "goth-kid",
-            "mainFile": "src/20210415JsonPrivate/IntroGothKid.json",
+            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroGothKid.json",
             "flagSetUponCompletion": "G" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -71,11 +71,11 @@
         },
         {
             "bookName" : "high school (part one)",
-            "mainFile" : "src/20210415JsonPrivate/High.json",
+            "mainFile" : "src/20210415JsonPrivate/HighSchool/High.json",
             "extraFiles": [
-                "src/20210415JsonPrivate/Cyclotron.json",
-                "src/20210415JsonPrivate/Ashes-NoDuplicates.json",
-                "src/20210415JsonPrivate/Chapter1FindTimmyInSports.json"
+                "src/20210415JsonPrivate/HighSchool/Cyclotron.json",
+                "src/20210415JsonPrivate/HighSchool/Ashes-NoDuplicates.json",
+                "src/20210415JsonPrivate/HighSchool/Chapter1FindTimmyInSports.json"
             ],
             "flagSetUponCompletion": "X",
             "prerequisiteType": "threeOrMore",

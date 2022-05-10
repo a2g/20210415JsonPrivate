@@ -7,42 +7,42 @@
             "type": "object",
             "allOf": [
                 {
-                    "$ref": "Gate/Gate.json#/definitions/gate_type"
+                    "$ref": "../Gate/Gate.json#/definitions/gate_type"
                 }
             ],
             "properties": {
                 "flag1": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/flag_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/flag_type"
                 },
                 "flag2": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/flag_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/flag_type"
                 },
                 "inv1": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/inv_type"
                 },
                 "inv2": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/inv_type"
                 },
                 "inv3": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/inv_type"
                 },
                 "prop1": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                 },
                 "prop2": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                 },
                 "prop3": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                 },
                 "prop4": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                 },
                 "prop5": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                 },
                 "prop6": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                 },
                 "fileToMerge": {
                     "type" : "string"
@@ -61,7 +61,7 @@
             "required": [ "char" ],
             "properties": {
                 "char": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/char_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/char_type"
                 }
             }
         },
@@ -70,7 +70,7 @@
             "required": [ "prop" ],
             "properties": {
                 "prop": {
-                    "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                    "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                 }
             }
         }
@@ -83,18 +83,18 @@
                 "type": "object",
                 "properties": {
                     "char": {
-                        "$ref": "AshesAndCyclotronObjects.json#/definitions/char_type"
+                        "$ref": "CyclotronAndAshesObjects.json#/definitions/char_type"
                     },
                     "thing": {
                         "oneOf": [
                             {
-                                "$ref": "AshesAndCyclotronObjects.json#/definitions/inv_type"
+                                "$ref": "CyclotronAndAshesObjects.json#/definitions/inv_type"
                             },
                             {
-                                "$ref": "AshesAndCyclotronObjects.json#/definitions/flag_type"
+                                "$ref": "CyclotronAndAshesObjects.json#/definitions/flag_type"
                             },
                             {
-                                "$ref": "AshesAndCyclotronObjects.json#/definitions/prop_type"
+                                "$ref": "CyclotronAndAshesObjects.json#/definitions/prop_type"
                             }
                         ]
                     }

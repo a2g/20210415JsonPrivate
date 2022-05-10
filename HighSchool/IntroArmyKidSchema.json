@@ -7,7 +7,7 @@
             "type": "object",
             "allOf": [
                 {
-                    "$ref": "Gate/Gate.json#/definitions/gate_type"
+                    "$ref": "../Gate/Gate.json#/definitions/gate_type"
                 }
             ],
             "properties": {

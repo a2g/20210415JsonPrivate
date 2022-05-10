@@ -35,7 +35,8 @@
         "flag_type": {
             "enum": [
                 "flag_chapter1_complete",
-                "flag_electricity_restored"
+                "flag_electricity_restored",
+                "flag_win"
             ]
         }
     }

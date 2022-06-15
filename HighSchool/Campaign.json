@@ -1,93 +1,116 @@
 {
     "$schema": "../Gate/GateCampaignFramework.json",
-    "books": [
+    "locations" : [
         {
-            "bookName" : "music-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroMusicKid.json",
-            "flagSetUponCompletion": "M", 
-            "sunsetType": "threeOrMore",
-            "sunsetFlags": [
-                "M",
-                "A",
-                "G",
-                "B",
-                "P"
-            ],
-
-            "extraFiles": [],
-            "prerequisiteType": "noPrerequisites",
-            "prerequisiteFlags": []
+            "locationName" : "(M)usic-kid-house",
+            "locationEnum" : "M",
+            "startingGatesFile" : "src/20210415JsonPrivate/HighSchool/IntroMusicKid.json",
+            "extraFiles": []
         },
         {
-            "bookName" : "basketball-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroBasketballKid.json",
-            "flagSetUponCompletion": "B" , 
-            "sunsetType": "noPrerequisites",
-            "sunsetFlags": [
-                "M",
-                "A",
-                "G",
-                "B",
-                "P"
-            ],
-
-            "extraFiles": [],
-            "prerequisiteType": "allOfThem",
-            "prerequisiteFlags": []
+            "locationName" : "(B)asketball-kid-house",
+            "locationEnum" : "B",
+            "startingGatesFile": "src/20210415JsonPrivate/HighSchool/IntroBasketballKid.json",
+            "extraFiles": []
         },
         {
-            "bookName" : "army-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroArmyKid.json",
-            "flagSetUponCompletion": "A" , 
-            "sunsetType": "threeOrMore",
-            "sunsetFlags": [
-                "M",
-                "A",
-                "G",
-                "B",
-                "P"
-            ],
-
-            "extraFiles": [],
-            "prerequisiteType": "noPrerequisites",
-            "prerequisiteFlags": []
+            "locationName" : "(A)rmy-kid-house",
+            "locationEnum" : "A",
+            "startingGateFile": "src/20210415JsonPrivate/HighSchool/IntroArmyKid.json",
+            "extraFiles": []
         },
         {
-            "bookName" : "goth-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroGothKid.json",
-            "flagSetUponCompletion": "G" , 
-            "sunsetType": "threeOrMore",
-            "sunsetFlags": [
-                "M",
-                "A",
-                "G",
-                "B",
-                "P"
-            ],
-
-            "extraFiles": [],
-            "prerequisiteType": "noPrerequisites",
-            "prerequisiteFlags": []
-        },
+            "locationName" : "(G)oth-kid-house",
+            "locationEnum" : "G",
+            "startingGateFile" : "src/20210415JsonPrivate/HighSchool/IntroGothKid.json",
+            "extraFiles": []
+        }
+        ,
         {
-            "bookName" : "high school (part one)",
-            "mainFile" : "src/20210415JsonPrivate/HighSchool/High.json",
+            "locationName": "(S)chool",
+            "locationEnum": "S",
+            "startingGateFile":  "src/20210415JsonPrivate/HighSchool/High.json",
             "extraFiles": [
                 "src/20210415JsonPrivate/HighSchool/Cyclotron.json",
                 "src/20210415JsonPrivate/HighSchool/Ashes-NoDuplicates.json",
                 "src/20210415JsonPrivate/HighSchool/Chapter1FindTimmyInSports.json"
-            ],
-            "flagSetUponCompletion": "X",
-            "prerequisiteType": "threeOrMore",
-            "prerequisiteFlags": [
-                "M",
-                "A",
-                "G",
-                "B",
-                "P"
-            ],
+            ]
+        }
+    ],
+    "goals": [
+        {
+            "goalName" : "g1-music-kid",
+            "goalEnum" : "G1",
+            "location": "M",
             "sunsetType": "threeOrMore",
-            "sunsetFlags": []
+            "sunsetGoals": [
+                "G1",
+                "G2",
+                "G3",
+                "G4",
+                "G5"
+            ]
+        },
+        {
+            "goalName" : "basketball-kid",
+            "goalEnum" : "G2",
+            "location" : "B",
+            "sunsetType": "threeOrMore",
+            "sunsetGoals": [
+                "G1",
+                "G2",
+                "G3",
+                "G4",
+                "G5"
+            ]
+        },
+        {
+            "goalName" : "free-army-kid",
+            "goalEnum": "G3",
+            "location" : "A",
+            "sunsetType": "threeOrMore",
+            "sunsetGoals": [
+                "G1",
+                "G2",
+                "G3",
+                "G4",
+                "G5"
+            ]
+        },
+        {
+            "goalName" : "free-goth-kid",
+            "goalEnum" : "G4",
+            "location": "G", 
+            "sunsetType": "threeOrMore",
+            "sunsetGoals": [
+                "G1",
+                "G2",
+                "G3",
+                "G4",
+                "G5"
+            ]
+        },
+        {
+            "goalName" : "high school (part one)",
+            "goalEnum" : "G10",
+            "location" : "S",
+            "prerequisiteType": "threeOrMore",
+            "prerequisiteGoals": [
+                "G1",
+                "G2",
+                "G3",
+                "G4",
+                "G5"
+            ]
+        },
+        {
+            "goalName" : "high school (part one)",
+            "goalEnum" : "G10",
+            "location" : "S",
+            "prerequisiteType": "oneOrMore",
+            "prerequisiteGoals": [
+                "G10"
+            ]
         }
     ]
 }

@@ -1,12 +1,12 @@
 {
     "$schema": "../Gate/GateCampaignFramework.json",
-    "books": [
+    "CampaignElement": [
         {
             "bookName" : "KidChooserAnt",
             "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserAnt.json",
             "flagSetUponCompletion": "A", 
             "sunsetType": "threeOrMore",
-            "sunsetFlags": [
+            "sunsetGoals": [
                 "M",
                 "A",
                 "G",
@@ -16,14 +16,14 @@
 
             "extraFiles": [],
             "prerequisiteType": "noPrerequisites",
-            "prerequisiteFlags": []
+            "prerequisiteGoals": []
         },
         {
             "bookName" : "KidChooserBen",
             "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserBen.json",
             "flagSetUponCompletion": "B" , 
             "sunsetType": "noPrerequisites",
-            "sunsetFlags": [
+            "sunsetGoals": [
                 "M",
                 "A",
                 "G",
@@ -33,14 +33,14 @@
 
             "extraFiles": [],
             "prerequisiteType": "allOfThem",
-            "prerequisiteFlags": []
+            "prerequisiteGoals": []
         },
         {
             "bookName" : "KidChooserCam",
             "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserCam.json",
             "flagSetUponCompletion": "A" , 
             "sunsetType": "threeOrMore",
-            "sunsetFlags": [
+            "sunsetGoals": [
                 "M",
                 "A",
                 "G",
@@ -50,14 +50,14 @@
 
             "extraFiles": [],
             "prerequisiteType": "noPrerequisites",
-            "prerequisiteFlags": []
+            "prerequisiteGoals": []
         },
         {
             "bookName" : "KidChooserDan",
             "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserDan.json",
             "flagSetUponCompletion": "D" , 
             "sunsetType": "threeOrMore",
-            "sunsetFlags": [
+            "sunsetGoals": [
                 "M",
                 "A",
                 "G",
@@ -67,7 +67,7 @@
 
             "extraFiles": [],
             "prerequisiteType": "noPrerequisites",
-            "prerequisiteFlags": []
+            "prerequisiteGoals": []
         },
         {
             "bookName" : "high school (part one)",
@@ -79,7 +79,7 @@
             ],
             "flagSetUponCompletion": "X",
             "prerequisiteType": "threeOrMore",
-            "prerequisiteFlags": [
+            "prerequisiteGoals": [
                 "A",
                 "B",
                 "C",
@@ -87,7 +87,7 @@
                 "E"
             ],
             "sunsetType": "threeOrMore",
-            "sunsetFlags": []
+            "sunsetGoals": []
         }
     ]
 }

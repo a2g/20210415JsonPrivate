@@ -1,16 +1,24 @@
 {
     "$schema": "../Gate/GateCampaignFramework.json",
-    "books": [
+    "locations": [
         {
-            "bookName" : "Michael flying",
-            "mainFile": "src/20210415JsonPrivate/LostBoys/MichaelFlying.json",
-            "flagSetUponCompletion": "A", 
-            "sunsetType": "threeOrMore",
-            "sunsetFlags": [
-            ],
-            "extraFiles": [],
-            "prerequisiteType": "allOfThem",
-            "prerequisiteFlags": []
+            "locationName" : "(F)lying  Michael",
+            "locationEnum": "F",
+            "startingGateFile": "src/20210415JsonPrivate/LostBoys/MichaelFlying.json",
+            "extraFiles": []
+        }
+    ],
+    "goals": [
+        {
+            "goalName": "get the keys",
+            "goalEnum": "G1",
+            "location": "F",
+            "gatesAddedUponActivation": [],
+            "gatesAddedUponCompletion": [],
+            "prerequisiteGoals": [],
+            "prerequisiteType": "zeroConditions",
+            "sunsetGoals": [],
+            "sunsetType": "zeroConditions"
         }
     ]
 }

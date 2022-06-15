@@ -1,16 +1,18 @@
 {
     "$schema": "../Gate/GateCampaignFramework.json",
-    "books": [
+    "locations": [
         {
-            "bookName" : "Airport",
-            "mainFile": "src/20210415JsonPrivate/DruidsDelight/Dock.json",
-            "flagSetUponCompletion": "A", 
-            "sunsetType": "threeOrMore",
-            "sunsetFlags": [
-            ],
-            "extraFiles": [],
-            "prerequisiteType": "allOfThem",
-            "prerequisiteFlags": []
+            "locationName": "(D)ock)",
+            "locationEnum": "D",
+            "startingGateFile": "src/20210415JsonPrivate/DruidsDelight/Dock.json",
+            "extraFiles": []
+        }
+    ],
+    "goals": [
+        {
+            "goalName": "get to Airport",
+            "goalEnum": "G1",
+            "location": "D"
         }
     ]
 }

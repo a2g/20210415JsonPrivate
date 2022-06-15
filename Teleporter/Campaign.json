@@ -2,9 +2,9 @@
     "$schema": "../Gate/GateCampaignFramework.json",
     "books": [
         {
-            "bookName" : "music-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroMusicKid.json",
-            "flagSetUponCompletion": "M", 
+            "bookName" : "KidChooserAnt",
+            "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserAnt.json",
+            "flagSetUponCompletion": "A", 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
                 "M",
@@ -19,8 +19,8 @@
             "prerequisiteFlags": []
         },
         {
-            "bookName" : "basketball-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroBasketballKid.json",
+            "bookName" : "KidChooserBen",
+            "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserBen.json",
             "flagSetUponCompletion": "B" , 
             "sunsetType": "noPrerequisites",
             "sunsetFlags": [
@@ -36,8 +36,8 @@
             "prerequisiteFlags": []
         },
         {
-            "bookName" : "army-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroArmyKid.json",
+            "bookName" : "KidChooserCam",
+            "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserCam.json",
             "flagSetUponCompletion": "A" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
@@ -53,9 +53,9 @@
             "prerequisiteFlags": []
         },
         {
-            "bookName" : "goth-kid",
-            "mainFile": "src/20210415JsonPrivate/HighSchool/IntroGothKid.json",
-            "flagSetUponCompletion": "G" , 
+            "bookName" : "KidChooserDan",
+            "mainFile": "src/20210415JsonPrivate/Teleporter/KidChooserDan.json",
+            "flagSetUponCompletion": "D" , 
             "sunsetType": "threeOrMore",
             "sunsetFlags": [
                 "M",
@@ -71,20 +71,20 @@
         },
         {
             "bookName" : "high school (part one)",
-            "mainFile" : "src/20210415JsonPrivate/HighSchool/High.json",
+            "mainFile" : "src/20210415JsonPrivate/Teleporter/High.json",
             "extraFiles": [
-                "src/20210415JsonPrivate/HighSchool/Cyclotron.json",
-                "src/20210415JsonPrivate/HighSchool/Ashes-NoDuplicates.json",
-                "src/20210415JsonPrivate/HighSchool/Chapter1FindTimmyInSports.json"
+                "src/20210415JsonPrivate/Teleporter/Cyclotron.json",
+                "src/20210415JsonPrivate/Teleporter/Ashes-NoDuplicates.json",
+                "src/20210415JsonPrivate/Teleporter/Chapter1FindTimmyInSports.json"
             ],
             "flagSetUponCompletion": "X",
             "prerequisiteType": "threeOrMore",
             "prerequisiteFlags": [
-                "M",
                 "A",
-                "G",
                 "B",
-                "P"
+                "C",
+                "D",
+                "E"
             ],
             "sunsetType": "threeOrMore",
             "sunsetFlags": []

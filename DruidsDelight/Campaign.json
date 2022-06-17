@@ -12,7 +12,13 @@
         {
             "goalName": "get to Airport",
             "goalEnum": "G1",
-            "location": "D"
+            "location": "D",
+            "gatesAddedUponActivation": [],
+            "gatesAddedUponCompletion": [],
+            "prerequisiteGoals": [],
+            "prerequisiteType": "allOfThem",
+            "sunsetGoals": [],
+            "sunsetType": "allOfThem"
         }
     ]
 }

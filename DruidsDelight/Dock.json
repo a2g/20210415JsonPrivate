@@ -9,7 +9,7 @@
         {
             "gate": "GIVE_INV1_TO_PROP1_GETS_INV2",
             "inv1": "inv_framed_money",
-            "prop2": "prop_bartender",
+            "prop1": "prop_bartender",
             "inv2": "inv_one_irish_punt"
         },
         {
@@ -22,7 +22,7 @@
             "gate": "GIVE_INV1_TO_PROP1_GETS_INV2",
             "inv1": "inv_unguent",
             "prop1": "prop_boatman",
-            "inv3": "inv_biodiesel"
+            "inv2": "inv_biodiesel"
         },
         {
             "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
@@ -41,7 +41,48 @@
             "inv1": "inv_one_irish_punt",
             "prop1": "prop_taxi",
             "flag1": "flag_win"
+        },
+        {
+            "gate": "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1": "prop_picture_frame",
+            "inv1": "inv_picture_frame"
+        },
+        {
+            "gate" : "INV1_BECOMES_INV2_BY_KEEPING_INV3",
+            "inv1" : "inv_picture_frame",
+            "inv2" : "inv_framed_money",
+            "inv3" : "inv_american_dollars"
+        },
+        {
+            "gate" : "PROP1_GOES_WHEN_GRAB_INV1",
+            "prop1" :"prop_greasy_grease_paper",
+            "inv1": "inv_grease_proof_paper"
         }
     ],
-    "startingThings": []
+    "startingThings": [
+        {
+            "thing": "prop_bartender"
+        },
+        {
+            "thing": "prop_boatman"
+        },
+        {
+            "thing": "prop_harbour_master"
+        },
+        {
+            "thing": "inv_american_dollars"
+        },
+        {
+            "thing": "prop_picture_frame"
+        },
+        {
+            "thing": "prop_greasy_grease_paper"
+        },
+        {
+            "thing": "prop_phone"
+        },
+        {
+            "thing": "prop_generator"
+        }
+    ]
 }

@@ -29,7 +29,8 @@
                 "prop_generator",
                 "prop_boatman",
                 "prop_taxi",
-                "prop_phone"
+                "prop_phone",
+                "prop_picture_frame"
             ]
         },
         "flag_type": {

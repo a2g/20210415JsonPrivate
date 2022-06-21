@@ -4,7 +4,7 @@
         {
             "locationName": "(D)ock)",
             "locationEnum": "D",
-            "startingGateFile": "src/20210415JsonPrivate/DruidsDelight/Dock.json",
+            "startingGateFile": "src/20210415JsonPrivate/DruidsDelight/Elder.json",
             "extraFiles": []
         }
     ],

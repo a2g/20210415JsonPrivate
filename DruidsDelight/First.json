@@ -1,0 +1,19 @@
+  {
+    "$schema": "./FirstSchema.json",
+    "gates": [
+        {
+          "gate": "PROP1_GOES_WHEN_GRAB_INV1",
+          "prop1": "prop_loose_brick",
+          "inv1": "inv_rock"
+        },
+        {
+          "gate" : "THROW_INV1_AT_PROP1_GETS_INV2_LOSE_BOTH",
+          "inv1" : "inv_rock",
+          "prop1": "prop_apples",
+          "inv2" : "inv_apple"
+        }
+    ],
+    "startingThings": [
+     
+    ]
+  }

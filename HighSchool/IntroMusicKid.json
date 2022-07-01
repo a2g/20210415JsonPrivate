@@ -6,7 +6,7 @@
             "gate": "FLAG1_SET_BY_USING_PROP1_WITH_PROP2",
             "prop1": "prop_guitar",
             "prop2": "prop_amp(dialed-to-eleven)",
-            "flag1": "flag_win"
+            "flag1": "flag_goal_main"
         },
         {
             "gate": "TOGGLE_PROP1_BECOMES_PROP2",
@@ -79,5 +79,5 @@
         {
             "thing" :"prop_amp(off)"
         }
-    ] 
+    ]
 }

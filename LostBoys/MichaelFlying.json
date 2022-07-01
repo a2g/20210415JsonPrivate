@@ -67,7 +67,7 @@
         },
         {
             "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
-            "flag1": "flag_win",
+            "flag1": "flag_goal_main",
             "inv1": "inv_motorbike_keys",
             "prop1": "prop_motorbike"
         },

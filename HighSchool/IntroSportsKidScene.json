@@ -6,7 +6,7 @@
             "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
             "inv1": "inv_real_basketball",
             "prop1": "prop_three_point_line",
-            "flag1": "flag_win"
+            "flag1": "flag_goal_main"
         },
         {
             "gate": "PROP1_GOES_WHEN_GRAB_INV1",
@@ -40,5 +40,5 @@
         {
             "thing":"prop_free_throw_line"
         }
-    ] 
+    ]
 }

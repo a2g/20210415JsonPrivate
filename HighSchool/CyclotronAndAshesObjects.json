@@ -63,7 +63,7 @@
         },
         "flag_type": {
             "enum": [
-                "flag_win",
+                "flag_goal_main",
                 "flag_death_by_physics",
                 "flag_death_by_goth"
             ]

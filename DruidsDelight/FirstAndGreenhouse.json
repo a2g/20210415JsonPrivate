@@ -1,0 +1,21 @@
+  {
+    "$schema": "./FirstSchema.json",
+    "gates": [
+        {
+          "gate": "GIVE_INV1_TO_PROP1_GETS_INV2",
+          "prop1": "prop_loose_brick",
+          "inv1": "inv_rock"
+        },
+        {
+          "gate" : "PROP1_GOES_WHEN_GRAB_INV1",
+          "prop1": "prop_soil_thermometer",
+          "inv1": "inv_soil_thermometer"
+        },
+        {
+          "gate" : "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
+          "prop1" : "prop_icehouse"
+        }
+    ],
+    "startingThings": [
+    ]
+  }

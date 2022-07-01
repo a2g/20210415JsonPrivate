@@ -9,7 +9,7 @@
                 "char_music_kid",
                 "char_army_kid",
                 "char_science_kid",
-                
+
                 "char_prefect",
                 "char_goth_kid"
 
@@ -62,7 +62,7 @@
         },
         "flag_type": {
             "enum": [
-                "flag_win",
+                "flag_goal_main",
                 "flag_death_by_guitar",
                 "flag_death_by_slamdunk",
                 "flag_ability_to_play_guitar",

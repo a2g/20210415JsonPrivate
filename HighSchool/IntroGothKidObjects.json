@@ -24,7 +24,7 @@
         },
         "flag_type": {
             "enum": [
-                "flag_win"
+                "flag_goal_main"
             ]
         }
     }

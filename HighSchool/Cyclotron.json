@@ -3,7 +3,7 @@
     "gates": [
         {
             "gate": "AUTO_FLAG1_SET_BY_FLAG2",
-            "flag1": "flag_win",
+            "flag1": "flag_goal_main",
             "flag2": "flag_death_by_physics"
         },
         {

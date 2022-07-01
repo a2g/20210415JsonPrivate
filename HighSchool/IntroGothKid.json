@@ -6,7 +6,7 @@
             "gate": "FLAG1_SET_BY_USING_INV1_WITH_INV2",
             "inv1": "inv_spell_book",
             "inv2": "inv_urn_of_ashes",
-            "flag1": "flag_win"
+            "flag1": "flag_goal_main"
         },
         {
             "gate": "PROP1_GOES_WHEN_GRAB_INV1",
@@ -34,5 +34,5 @@
         {
             "thing": "prop_urn_of_ashes"
         }
-    ] 
+    ]
 }

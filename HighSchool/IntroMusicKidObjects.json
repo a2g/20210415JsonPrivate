@@ -11,7 +11,7 @@
         "inv_type": {
             "enum": [
               ""
-                
+
             ]
         },
         "prop_type": {
@@ -33,8 +33,8 @@
         },
         "flag_type": {
             "enum": [
-                "flag_win"
-                
+                "flag_goal_main"
+
             ]
         }
     }

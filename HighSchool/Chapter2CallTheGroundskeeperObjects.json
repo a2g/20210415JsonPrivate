@@ -39,7 +39,7 @@
         },
         "flag_type": {
             "enum": [
-                "flag_win",
+                "flag_goal_main",
                 "flag_chapter2_complete",
                 "flag_sensor_too_much_moisture",
                 "flag_sensor_too_much_precipitation"

@@ -1,19 +1,50 @@
   {
     "$schema": "./FirstSchema.json",
     "gates": [
-        {
-          "gate": "PROP1_GOES_WHEN_GRAB_INV1",
-          "prop1": "prop_loose_brick",
-          "inv1": "inv_rock"
-        },
-        {
-          "gate" : "THROW_INV1_AT_PROP1_GETS_INV2_LOSE_BOTH",
-          "inv1" : "inv_rock",
-          "prop1": "prop_apples",
-          "inv2" : "inv_apple"
-        }
+      {
+        "gate": "PROP1_GOES_WHEN_GRAB_INV1",
+        "prop1": "prop_loose_brick",
+        "inv1": "inv_rock"
+      },
+      {
+        "gate": "THROW_INV1_AT_PROP1_GETS_INV2_LOSE_BOTH",
+        "inv1": "inv_rock",
+        "prop1": "prop_apples",
+        "inv2": "inv_apple"
+      },
+      {
+        "gate": "TALK_TO_PROP1_GETS_INV1",
+        "prop1": "prop_druid_wielding_knife",
+        "inv1": "inv_knife"
+      },
+      {
+        "gate": "INV1_BECOMES_INV2_BY_KEEPING_INV3",
+        "inv1": "inv_apple",
+        "inv2": "inv_apple_slices",
+        "inv3": "inv_knife"
+      },
+      {
+        "gate": "GIVE_INV1_TO_PROP1_GETS_INV2",
+        "inv1": "inv_apple_slices",
+        "prop1": "prop_butler",
+        "inv2": "inv_greenhouse_key"
+      },
+      {
+        "gate": "GIVE_INV1_TO_PROP1_GETS_INV2",
+        "inv1": "inv_apple_slices",
+        "prop1": "prop_butler",
+        "inv2": "inv_greenhouse_key"
+      },
+      {
+        "gate": "FLAG1_SET_BY_USING_INV1_WITH_PROP1",
+        "inv1": "inv_greenhouse_key",
+        "prop1": "prop_greenhouse_door",
+        "flag1": "flag_goal_main"
+      }
     ],
     "startingThings": [
-     
+      {
+        "thing": "inv_torch_lit"
+      }
     ]
   }

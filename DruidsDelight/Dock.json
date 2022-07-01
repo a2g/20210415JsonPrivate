@@ -40,7 +40,7 @@
             "gate": "GIVE_INV1_TO_PROP1_SETS_FLAG1",
             "inv1": "inv_one_irish_punt",
             "prop1": "prop_taxi",
-            "flag1": "flag_win"
+            "flag1": "flag_goal_main"
         },
         {
             "gate": "PROP1_GOES_WHEN_GRAB_INV1",

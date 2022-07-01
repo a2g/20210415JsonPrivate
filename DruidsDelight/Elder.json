@@ -42,7 +42,7 @@
         ,{
            "gate" :"AUTO_FLAG1_SET_BY_INVS",
            "inv1" : "inv_torch_lit",
-           "flag1": "flag_win"
+           "flag1": "flag_goal_main"
         }
     ],
     "startingThings": [

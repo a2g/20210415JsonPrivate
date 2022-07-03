@@ -37,9 +37,9 @@
         "flag_type": {
             "enum": [
                 "flag_goal_main",
-                "flag_win_by_police",
-                "flag_win_by_launch",
-                "flag_win_by_talkshow"
+                "flag_goal_by_police",
+                "flag_goal_by_launch",
+                "flag_goal_by_talkshow"
             ]
         }
     }

@@ -1,0 +1,16 @@
+  {
+    "$schema": "./FirstSchema.json",
+    "startingThings": [],
+    "gates": [
+      {
+        "gate": "PROP1_GOES_WHEN_GRAB_INV1",
+        "prop1": "prop_soil_thermometer",
+        "inv1": "inv_soil_thermometer"
+      },
+      {
+        "gate": "PROP1_BECOMES_PROP2_BY_KEEPING_INV1",
+        "prop1": "prop_icehouse"
+      }
+    ],
+    "bags": []
+  }

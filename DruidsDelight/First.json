@@ -1,5 +1,10 @@
   {
     "$schema": "./FirstSchema.json",
+    "startingThings": [
+      {
+        "thing": "inv_torch_lit"
+      }
+    ],
     "gates": [
       {
         "gate": "PROP1_GOES_WHEN_GRAB_INV1",
@@ -42,9 +47,14 @@
         "flag1": "flag_goal_main"
       }
     ],
-    "startingThings": [
+    "bags": [
       {
-        "thing": "inv_torch_lit"
+        "flag": "flag_goal_main",
+        "fileToMerge": "src/20210415JsonPrivate/DruidsDelight/FirstGreenhouseBag.json"
+      },
+      {
+        "flag": "flag_goal_enter_icehouse",
+        "fileToMerge": "src/20210415JsonPrivate/DruidsDelight/FirstIcehouseBag.json"
       }
     ]
   }

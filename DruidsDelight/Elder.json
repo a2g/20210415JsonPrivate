@@ -1,50 +1,5 @@
   {
     "$schema": "./ElderSchema.json",
-    "gates": [
-        {
-            "gate": "PROP1_STAYS_WHEN_GRAB_INV1",
-            "prop1": "prop_officer_dooley",
-            "inv1": "inv_piece_of_robe"
-        },
-        {
-          "gate": "PROP1_STAYS_WHEN_GRAB_INV1",
-          "prop1": "prop_limestone",
-          "inv1": "inv_flint"
-       },
-        {
-          "gate": "PROP1_STAYS_WHEN_GRAB_INV1",
-          "prop1": "prop_teenager",
-          "inv1": "inv_poitan"
-        },
-        {
-          "gate" : "PROP1_GOES_WHEN_GRAB_INV1",
-          "prop1": "prop_arch-druid",
-          "inv1" : "inv_shillelagh"
-        },
-        {
-          "gate" : "INV1_BECOMES_INV2_BY_LOSING_INV3",
-          "inv1": "inv_shillelagh",
-          "inv2" : "inv_torch_unlit",
-          "inv3" : "inv_piece_of_robe"
-        },
-        {
-          "gate" : "INV1_BECOMES_INV2_BY_LOSING_INV3",
-          "inv1": "inv_flint",
-          "inv2" : "inv_tinder_kit",
-          "inv3" : "inv_bottle_top"
-        },
-        {
-          "gate" : "INV1_BECOMES_INV2_BY_LOSING_INV3",
-          "inv1": "inv_torch_unlit",
-          "inv2" : "inv_torch_lit",
-          "inv3" : "inv_tinder_kit"
-        }
-        ,{
-           "gate" :"AUTO_FLAG1_SET_BY_INVS",
-           "inv1" : "inv_torch_lit",
-           "flag1": "flag_goal_main"
-        }
-    ],
     "startingThings": [
       {
         "thing": "inv_bottle_top"
@@ -64,5 +19,51 @@
       {
         "thing": "prop_officer_dooley"
       }
-    ]
+    ],
+    "gates": [
+      {
+        "gate": "PROP1_STAYS_WHEN_GRAB_INV1",
+        "prop1": "prop_officer_dooley",
+        "inv1": "inv_piece_of_robe"
+      },
+      {
+        "gate": "PROP1_STAYS_WHEN_GRAB_INV1",
+        "prop1": "prop_limestone",
+        "inv1": "inv_flint"
+      },
+      {
+        "gate": "PROP1_STAYS_WHEN_GRAB_INV1",
+        "prop1": "prop_teenager",
+        "inv1": "inv_poitan"
+      },
+      {
+        "gate": "PROP1_GOES_WHEN_GRAB_INV1",
+        "prop1": "prop_arch-druid",
+        "inv1": "inv_shillelagh"
+      },
+      {
+        "gate": "INV1_BECOMES_INV2_BY_LOSING_INV3",
+        "inv1": "inv_shillelagh",
+        "inv2": "inv_torch_unlit",
+        "inv3": "inv_piece_of_robe"
+      },
+      {
+        "gate": "INV1_BECOMES_INV2_BY_LOSING_INV3",
+        "inv1": "inv_flint",
+        "inv2": "inv_tinder_kit",
+        "inv3": "inv_bottle_top"
+      },
+      {
+        "gate": "INV1_BECOMES_INV2_BY_LOSING_INV3",
+        "inv1": "inv_torch_unlit",
+        "inv2": "inv_torch_lit",
+        "inv3": "inv_tinder_kit"
+      },
+      {
+        "gate": "AUTO_FLAG1_SET_BY_INVS",
+        "inv1": "inv_torch_lit",
+        "flag1": "flag_goal_main"
+      }
+    ],
+    "bags": []
   }
